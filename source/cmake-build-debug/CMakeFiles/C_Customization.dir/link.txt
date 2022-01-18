@@ -1,0 +1,3 @@
+"D:\IDE\CLion\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\C_Customization.dir/objects.a
+"D:\IDE\CLion\CLion 2021.3.2\bin\mingw\bin\ar.exe" qc CMakeFiles\C_Customization.dir/objects.a @CMakeFiles\C_Customization.dir\objects1.rsp
+"D:\IDE\CLion\CLion 2021.3.2\bin\mingw\bin\gcc.exe" -g -Wl,--whole-archive CMakeFiles\C_Customization.dir/objects.a -Wl,--no-whole-archive -o C_Customization.exe -Wl,--out-implib,libC_Customization.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\C_Customization.dir\linklibs.rsp

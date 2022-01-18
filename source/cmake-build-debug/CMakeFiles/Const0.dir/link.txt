@@ -1,0 +1,3 @@
+"D:\IDE\CLion\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Const0.dir/objects.a
+"D:\IDE\CLion\CLion 2021.3.2\bin\mingw\bin\ar.exe" qc CMakeFiles\Const0.dir/objects.a @CMakeFiles\Const0.dir\objects1.rsp
+"D:\IDE\CLion\CLion 2021.3.2\bin\mingw\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\Const0.dir/objects.a -Wl,--no-whole-archive -o Const0.exe -Wl,--out-implib,libConst0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Const0.dir\linklibs.rsp

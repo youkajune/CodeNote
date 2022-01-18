@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="source"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C_PlusPlus_Customization">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/C_PlusPlus_Customization.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_PlusPlus_Customization"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C_PlusPlus_Customization/fast">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/C_PlusPlus_Customization.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_PlusPlus_Customization/fast"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DynamicMemory">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/DynamicMemory.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 DynamicMemory"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DynamicMemory/fast">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/DynamicMemory.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 DynamicMemory/fast"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Link">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/Link.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Link"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Link/fast">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/Link.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Link/fast"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HelloWorld">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/HelloWorld.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 HelloWorld"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HelloWorld/fast">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/HelloWorld.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 HelloWorld/fast"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Demo0">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/Demo0.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Demo0"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Demo0/fast">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/Demo0.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Demo0/fast"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C_Struct0">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/C_Struct0.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_Struct0"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C_Struct0/fast">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/C_Struct0.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_Struct0/fast"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C_Struct1">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/C_Struct1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_Struct1"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C_Struct1/fast">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/C_Struct1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_Struct1/fast"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C_Customization">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/C_Customization.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_Customization"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C_Customization/fast">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/C_Customization.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_Customization/fast"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Const0">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/Const0.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Const0"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Const0/fast">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/Const0.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Const0/fast"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C_Struct2">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/C_Struct2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_Struct2"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C_Struct2/fast">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/C_Struct2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_Struct2/fast"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Demo1">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/Demo1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Demo1"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Demo1/fast">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/Demo1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Demo1/fast"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Demo2">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/Demo2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Demo2"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Demo2/fast">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/Demo2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Demo2/fast"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Demo3">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/Demo3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Demo3"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Demo3/fast">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/Demo3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Demo3/fast"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CodeReuse">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/CodeReuse.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 CodeReuse"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CodeReuse/fast">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/CodeReuse.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 CodeReuse/fast"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Output">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/Output.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Output"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Output/fast">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/Output.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Output/fast"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Operator1">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/Operator1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Operator1"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Operator1/fast">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/Operator1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Operator1/fast"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Operator2">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/Operator2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Operator2"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Operator2/fast">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/Operator2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Operator2/fast"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Friend">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/Friend.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Friend"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Friend/fast">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/Friend.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Friend/fast"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TypeConversion">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/TypeConversion.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 TypeConversion"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TypeConversion/fast">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/TypeConversion.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 TypeConversion/fast"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PositionNew">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/PositionNew.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 PositionNew"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PositionNew/fast">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/PositionNew.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 PositionNew/fast"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Exception">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/Exception.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Exception"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Exception/fast">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/Exception.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Exception/fast"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ATMQueue">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/ATMQueue.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 ATMQueue"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ATMQueue/fast">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/ATMQueue.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 ATMQueue/fast"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Extends">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/Extends.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Extends"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Extends/fast">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/Extends.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Extends/fast"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FriendClass">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/FriendClass.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 FriendClass"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FriendClass/fast">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/FriendClass.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 FriendClass/fast"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit1/Link/link1.cpp">
+			<Option target="Link"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit1/Link/link2.cpp">
+			<Option target="Link"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit1/Struct/struct0.c">
+			<Option target="C_Struct0"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit1/Struct/struct1.c">
+			<Option target="C_Struct1"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit1/Struct/struct2.c">
+			<Option target="C_Struct2"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit2/Class Flexible Demo/complex_c.c">
+			<Option target="C_Customization"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit2/Class Flexible Demo/complex_cplus.cpp">
+			<Option target="C_PlusPlus_Customization"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit2/Constant/const_object.cpp">
+			<Option target="Const0"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit2/Constant/const_object.h">
+			<Option target="Const0"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit2/Constant/constant.h">
+			<Option target="Const0"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit2/Constant/demo.cpp">
+			<Option target="Const0"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit2/Stock/demo0.cpp">
+			<Option target="Demo0"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit2/Stock/demo1.cpp">
+			<Option target="Demo1"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit2/Stock/demo2.cpp">
+			<Option target="Demo2"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit2/Stock/demo3.cpp">
+			<Option target="Demo3"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit2/Stock/stock0.cpp">
+			<Option target="Demo0"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit2/Stock/stock0.h">
+			<Option target="Demo0"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit2/Stock/stock1.cpp">
+			<Option target="Demo1"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit2/Stock/stock1.h">
+			<Option target="Demo1"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit2/Stock/stock2.cpp">
+			<Option target="Demo2"/>
+			<Option target="Demo3"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit2/Stock/stock2.h">
+			<Option target="Demo2"/>
+			<Option target="Demo3"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit3/Operator/demo1.cpp">
+			<Option target="Operator1"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit3/Operator/demo2.cpp">
+			<Option target="Operator2"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit3/Operator/demo3.cpp">
+			<Option target="Friend"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit3/Operator/myfriend.cpp">
+			<Option target="Friend"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit3/Operator/myfriend.h">
+			<Option target="Friend"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit3/Operator/mytime1.cpp">
+			<Option target="Operator1"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit3/Operator/mytime1.h">
+			<Option target="Operator1"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit3/Operator/mytime2.cpp">
+			<Option target="Operator2"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit3/Operator/mytime2.h">
+			<Option target="Operator2"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit3/Practice/demo.cpp">
+			<Option target="Output"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit3/Practice/output.cpp">
+			<Option target="Output"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit3/Practice/output.h">
+			<Option target="Output"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit3/Practice/vector.cpp">
+			<Option target="Output"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit3/Practice/vector.h">
+			<Option target="Output"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit3/TypeConversion/demo.cpp">
+			<Option target="TypeConversion"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit3/TypeConversion/stone.cpp">
+			<Option target="TypeConversion"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit3/TypeConversion/stone.h">
+			<Option target="TypeConversion"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit4/String.cpp">
+			<Option target="DynamicMemory"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit4/String.h">
+			<Option target="DynamicMemory"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit4/StringBad.cpp">
+			<Option target="DynamicMemory"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit4/StringBad.h">
+			<Option target="DynamicMemory"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit4/atm.cpp">
+			<Option target="ATMQueue"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit4/client.cpp">
+			<Option target="ATMQueue"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit4/client.h">
+			<Option target="ATMQueue"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit4/demo.cpp">
+			<Option target="DynamicMemory"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit4/position_new.cpp">
+			<Option target="PositionNew"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit5/Brass.cpp">
+			<Option target="Extends"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit5/Brass.h">
+			<Option target="Extends"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit5/main.cpp">
+			<Option target="Extends"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit5/person.cpp">
+			<Option target="Extends"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit5/person.h">
+			<Option target="Extends"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit6/ClassTemplate.h">
+			<Option target="CodeReuse"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit6/Contains.h">
+			<Option target="CodeReuse"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit6/MultipleInheritance.h">
+			<Option target="CodeReuse"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit6/PrivateExtend.h">
+			<Option target="CodeReuse"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit6/main.cpp">
+			<Option target="CodeReuse"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit7/Friend.cpp">
+			<Option target="FriendClass"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit7/Friend.h">
+			<Option target="FriendClass"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit7/main.cpp">
+			<Option target="FriendClass"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit8/Exception.cpp">
+			<Option target="Exception"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit8/Exception.h">
+			<Option target="Exception"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/main.cpp">
+			<Option target="HelloWorld"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

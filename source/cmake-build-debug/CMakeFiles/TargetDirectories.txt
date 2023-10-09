@@ -23,4 +23,7 @@ E:/CodeNote/cplusplus-note/source/cmake-build-debug/CMakeFiles/Exception.dir
 E:/CodeNote/cplusplus-note/source/cmake-build-debug/CMakeFiles/ATMQueue.dir
 E:/CodeNote/cplusplus-note/source/cmake-build-debug/CMakeFiles/Extends.dir
 E:/CodeNote/cplusplus-note/source/cmake-build-debug/CMakeFiles/FriendClass.dir
+E:/CodeNote/cplusplus-note/source/cmake-build-debug/CMakeFiles/NoException.dir
 E:/CodeNote/cplusplus-note/source/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/CodeNote/cplusplus-note/source/cmake-build-debug/CMakeFiles/Theory.dir
+E:/CodeNote/cplusplus-note/source/cmake-build-debug/CMakeFiles/ExceptionSTDClass.dir

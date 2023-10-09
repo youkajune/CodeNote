@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/CodeNote/cplusplus-note/source/Unit4/atm.cpp" "CMakeFiles/ATMQueue.dir/Unit4/atm.cpp.obj" "gcc" "CMakeFiles/ATMQueue.dir/Unit4/atm.cpp.obj.d"
   "E:/CodeNote/cplusplus-note/source/Unit4/client.cpp" "CMakeFiles/ATMQueue.dir/Unit4/client.cpp.obj" "gcc" "CMakeFiles/ATMQueue.dir/Unit4/client.cpp.obj.d"
+  "E:/CodeNote/cplusplus-note/source/Unit8/Theory/main.cpp" "CMakeFiles/ATMQueue.dir/Unit8/Theory/main.cpp.obj" "gcc" "CMakeFiles/ATMQueue.dir/Unit8/Theory/main.cpp.obj.d"
   )
 
 # Targets to which this target links.

@@ -86,6 +86,9 @@ all: CMakeFiles/Exception.dir/all
 all: CMakeFiles/ATMQueue.dir/all
 all: CMakeFiles/Extends.dir/all
 all: CMakeFiles/FriendClass.dir/all
+all: CMakeFiles/NoException.dir/all
+all: CMakeFiles/Theory.dir/all
+all: CMakeFiles/ExceptionSTDClass.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -117,6 +120,9 @@ clean: CMakeFiles/Exception.dir/clean
 clean: CMakeFiles/ATMQueue.dir/clean
 clean: CMakeFiles/Extends.dir/clean
 clean: CMakeFiles/FriendClass.dir/clean
+clean: CMakeFiles/NoException.dir/clean
+clean: CMakeFiles/Theory.dir/clean
+clean: CMakeFiles/ExceptionSTDClass.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -126,7 +132,7 @@ clean: CMakeFiles/FriendClass.dir/clean
 CMakeFiles/C_PlusPlus_Customization.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_PlusPlus_Customization.dir\build.make CMakeFiles/C_PlusPlus_Customization.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_PlusPlus_Customization.dir\build.make CMakeFiles/C_PlusPlus_Customization.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=6,7 "Built target C_PlusPlus_Customization"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target C_PlusPlus_Customization"
 .PHONY : CMakeFiles/C_PlusPlus_Customization.dir/all
 
 # Build rule for subdir invocation for target.
@@ -152,7 +158,7 @@ CMakeFiles/C_PlusPlus_Customization.dir/clean:
 CMakeFiles/DynamicMemory.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicMemory.dir\build.make CMakeFiles/DynamicMemory.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicMemory.dir\build.make CMakeFiles/DynamicMemory.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=31,32,33,34 "Built target DynamicMemory"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=32,33,34,35 "Built target DynamicMemory"
 .PHONY : CMakeFiles/DynamicMemory.dir/all
 
 # Build rule for subdir invocation for target.
@@ -178,7 +184,7 @@ CMakeFiles/DynamicMemory.dir/clean:
 CMakeFiles/Link.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Link.dir\build.make CMakeFiles/Link.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Link.dir\build.make CMakeFiles/Link.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=49,50,51 "Built target Link"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=52,53,54 "Built target Link"
 .PHONY : CMakeFiles/Link.dir/all
 
 # Build rule for subdir invocation for target.
@@ -204,7 +210,7 @@ CMakeFiles/Link.dir/clean:
 CMakeFiles/HelloWorld.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HelloWorld.dir\build.make CMakeFiles/HelloWorld.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HelloWorld.dir\build.make CMakeFiles/HelloWorld.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target HelloWorld"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=50,51 "Built target HelloWorld"
 .PHONY : CMakeFiles/HelloWorld.dir/all
 
 # Build rule for subdir invocation for target.
@@ -230,7 +236,7 @@ CMakeFiles/HelloWorld.dir/clean:
 CMakeFiles/Demo0.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Demo0.dir\build.make CMakeFiles/Demo0.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Demo0.dir\build.make CMakeFiles/Demo0.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=19,20,21 "Built target Demo0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=20,21,22 "Built target Demo0"
 .PHONY : CMakeFiles/Demo0.dir/all
 
 # Build rule for subdir invocation for target.
@@ -256,7 +262,7 @@ CMakeFiles/Demo0.dir/clean:
 CMakeFiles/C_Struct0.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Struct0.dir\build.make CMakeFiles/C_Struct0.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Struct0.dir\build.make CMakeFiles/C_Struct0.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=8,9 "Built target C_Struct0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target C_Struct0"
 .PHONY : CMakeFiles/C_Struct0.dir/all
 
 # Build rule for subdir invocation for target.
@@ -282,7 +288,7 @@ CMakeFiles/C_Struct0.dir/clean:
 CMakeFiles/C_Struct1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Struct1.dir\build.make CMakeFiles/C_Struct1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Struct1.dir\build.make CMakeFiles/C_Struct1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=10,11 "Built target C_Struct1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target C_Struct1"
 .PHONY : CMakeFiles/C_Struct1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -308,7 +314,7 @@ CMakeFiles/C_Struct1.dir/clean:
 CMakeFiles/C_Customization.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Customization.dir\build.make CMakeFiles/C_Customization.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Customization.dir\build.make CMakeFiles/C_Customization.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=4,5 "Built target C_Customization"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target C_Customization"
 .PHONY : CMakeFiles/C_Customization.dir/all
 
 # Build rule for subdir invocation for target.
@@ -334,7 +340,7 @@ CMakeFiles/C_Customization.dir/clean:
 CMakeFiles/Const0.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Const0.dir\build.make CMakeFiles/Const0.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Const0.dir\build.make CMakeFiles/Const0.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=16,17,18 "Built target Const0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=17,18,19 "Built target Const0"
 .PHONY : CMakeFiles/Const0.dir/all
 
 # Build rule for subdir invocation for target.
@@ -360,7 +366,7 @@ CMakeFiles/Const0.dir/clean:
 CMakeFiles/C_Struct2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Struct2.dir\build.make CMakeFiles/C_Struct2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Struct2.dir\build.make CMakeFiles/C_Struct2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=12,13 "Built target C_Struct2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target C_Struct2"
 .PHONY : CMakeFiles/C_Struct2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -386,7 +392,7 @@ CMakeFiles/C_Struct2.dir/clean:
 CMakeFiles/Demo1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Demo1.dir\build.make CMakeFiles/Demo1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Demo1.dir\build.make CMakeFiles/Demo1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=22,23,24 "Built target Demo1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=23,24,25 "Built target Demo1"
 .PHONY : CMakeFiles/Demo1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -412,7 +418,7 @@ CMakeFiles/Demo1.dir/clean:
 CMakeFiles/Demo2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Demo2.dir\build.make CMakeFiles/Demo2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Demo2.dir\build.make CMakeFiles/Demo2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=25,26,27 "Built target Demo2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=26,27,28 "Built target Demo2"
 .PHONY : CMakeFiles/Demo2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -438,7 +444,7 @@ CMakeFiles/Demo2.dir/clean:
 CMakeFiles/Demo3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Demo3.dir\build.make CMakeFiles/Demo3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Demo3.dir\build.make CMakeFiles/Demo3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=28,29,30 "Built target Demo3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=29,30,31 "Built target Demo3"
 .PHONY : CMakeFiles/Demo3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -464,7 +470,7 @@ CMakeFiles/Demo3.dir/clean:
 CMakeFiles/CodeReuse.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CodeReuse.dir\build.make CMakeFiles/CodeReuse.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CodeReuse.dir\build.make CMakeFiles/CodeReuse.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=14,15 "Built target CodeReuse"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target CodeReuse"
 .PHONY : CMakeFiles/CodeReuse.dir/all
 
 # Build rule for subdir invocation for target.
@@ -490,7 +496,7 @@ CMakeFiles/CodeReuse.dir/clean:
 CMakeFiles/Output.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Output.dir\build.make CMakeFiles/Output.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Output.dir\build.make CMakeFiles/Output.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=58,59,60,61 "Built target Output"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=63,64,65,66 "Built target Output"
 .PHONY : CMakeFiles/Output.dir/all
 
 # Build rule for subdir invocation for target.
@@ -516,7 +522,7 @@ CMakeFiles/Output.dir/clean:
 CMakeFiles/Operator1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Operator1.dir\build.make CMakeFiles/Operator1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Operator1.dir\build.make CMakeFiles/Operator1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=52,53,54 "Built target Operator1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=57,58,59 "Built target Operator1"
 .PHONY : CMakeFiles/Operator1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -542,7 +548,7 @@ CMakeFiles/Operator1.dir/clean:
 CMakeFiles/Operator2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Operator2.dir\build.make CMakeFiles/Operator2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Operator2.dir\build.make CMakeFiles/Operator2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=55,56,57 "Built target Operator2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=60,61,62 "Built target Operator2"
 .PHONY : CMakeFiles/Operator2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -568,7 +574,7 @@ CMakeFiles/Operator2.dir/clean:
 CMakeFiles/Friend.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Friend.dir\build.make CMakeFiles/Friend.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Friend.dir\build.make CMakeFiles/Friend.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=41,42,43 "Built target Friend"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=44,45,46 "Built target Friend"
 .PHONY : CMakeFiles/Friend.dir/all
 
 # Build rule for subdir invocation for target.
@@ -594,7 +600,7 @@ CMakeFiles/Friend.dir/clean:
 CMakeFiles/TypeConversion.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TypeConversion.dir\build.make CMakeFiles/TypeConversion.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TypeConversion.dir\build.make CMakeFiles/TypeConversion.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=64,65,66 "Built target TypeConversion"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=71,72,73 "Built target TypeConversion"
 .PHONY : CMakeFiles/TypeConversion.dir/all
 
 # Build rule for subdir invocation for target.
@@ -620,7 +626,7 @@ CMakeFiles/TypeConversion.dir/clean:
 CMakeFiles/PositionNew.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PositionNew.dir\build.make CMakeFiles/PositionNew.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PositionNew.dir\build.make CMakeFiles/PositionNew.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=62,63 "Built target PositionNew"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=67,68 "Built target PositionNew"
 .PHONY : CMakeFiles/PositionNew.dir/all
 
 # Build rule for subdir invocation for target.
@@ -646,7 +652,7 @@ CMakeFiles/PositionNew.dir/clean:
 CMakeFiles/Exception.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exception.dir\build.make CMakeFiles/Exception.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exception.dir\build.make CMakeFiles/Exception.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target Exception"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=36,37 "Built target Exception"
 .PHONY : CMakeFiles/Exception.dir/all
 
 # Build rule for subdir invocation for target.
@@ -672,12 +678,12 @@ CMakeFiles/Exception.dir/clean:
 CMakeFiles/ATMQueue.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ATMQueue.dir\build.make CMakeFiles/ATMQueue.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ATMQueue.dir\build.make CMakeFiles/ATMQueue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target ATMQueue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target ATMQueue"
 .PHONY : CMakeFiles/ATMQueue.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ATMQueue.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/ATMQueue.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/ATMQueue.dir/rule
@@ -698,7 +704,7 @@ CMakeFiles/ATMQueue.dir/clean:
 CMakeFiles/Extends.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Extends.dir\build.make CMakeFiles/Extends.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Extends.dir\build.make CMakeFiles/Extends.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=37,38,39,40 "Built target Extends"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=40,41,42,43 "Built target Extends"
 .PHONY : CMakeFiles/Extends.dir/all
 
 # Build rule for subdir invocation for target.
@@ -724,7 +730,7 @@ CMakeFiles/Extends.dir/clean:
 CMakeFiles/FriendClass.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FriendClass.dir\build.make CMakeFiles/FriendClass.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FriendClass.dir\build.make CMakeFiles/FriendClass.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=44,45,46 "Built target FriendClass"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=47,48,49 "Built target FriendClass"
 .PHONY : CMakeFiles/FriendClass.dir/all
 
 # Build rule for subdir invocation for target.
@@ -742,6 +748,84 @@ FriendClass: CMakeFiles/FriendClass.dir/rule
 CMakeFiles/FriendClass.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FriendClass.dir\build.make CMakeFiles/FriendClass.dir/clean
 .PHONY : CMakeFiles/FriendClass.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/NoException.dir
+
+# All Build rule for target.
+CMakeFiles/NoException.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NoException.dir\build.make CMakeFiles/NoException.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NoException.dir\build.make CMakeFiles/NoException.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=55,56 "Built target NoException"
+.PHONY : CMakeFiles/NoException.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/NoException.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/NoException.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/NoException.dir/rule
+
+# Convenience name for target.
+NoException: CMakeFiles/NoException.dir/rule
+.PHONY : NoException
+
+# clean rule for target.
+CMakeFiles/NoException.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NoException.dir\build.make CMakeFiles/NoException.dir/clean
+.PHONY : CMakeFiles/NoException.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Theory.dir
+
+# All Build rule for target.
+CMakeFiles/Theory.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Theory.dir\build.make CMakeFiles/Theory.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Theory.dir\build.make CMakeFiles/Theory.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=69,70 "Built target Theory"
+.PHONY : CMakeFiles/Theory.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Theory.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Theory.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Theory.dir/rule
+
+# Convenience name for target.
+Theory: CMakeFiles/Theory.dir/rule
+.PHONY : Theory
+
+# clean rule for target.
+CMakeFiles/Theory.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Theory.dir\build.make CMakeFiles/Theory.dir/clean
+.PHONY : CMakeFiles/Theory.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ExceptionSTDClass.dir
+
+# All Build rule for target.
+CMakeFiles/ExceptionSTDClass.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExceptionSTDClass.dir\build.make CMakeFiles/ExceptionSTDClass.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExceptionSTDClass.dir\build.make CMakeFiles/ExceptionSTDClass.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=38,39 "Built target ExceptionSTDClass"
+.PHONY : CMakeFiles/ExceptionSTDClass.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ExceptionSTDClass.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/ExceptionSTDClass.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/ExceptionSTDClass.dir/rule
+
+# Convenience name for target.
+ExceptionSTDClass: CMakeFiles/ExceptionSTDClass.dir/rule
+.PHONY : ExceptionSTDClass
+
+# clean rule for target.
+CMakeFiles/ExceptionSTDClass.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExceptionSTDClass.dir\build.make CMakeFiles/ExceptionSTDClass.dir/clean
+.PHONY : CMakeFiles/ExceptionSTDClass.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

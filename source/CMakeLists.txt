@@ -28,7 +28,7 @@ add_executable(TypeConversion Unit3/TypeConversion/stone.h Unit3/TypeConversion/
 
 add_executable(DynamicMemory Unit4/StringBad.h Unit4/StringBad.cpp Unit4/String.cpp Unit4/String.h Unit4/demo.cpp)
 add_executable(PositionNew Unit4/position_new.cpp)
-add_executable(ATMQueue Unit4/client.h Unit4/client.cpp Unit4/atm.cpp)
+add_executable(ATMQueue Unit4/client.h Unit4/client.cpp Unit4/atm.cpp Unit8/Theory/main.cpp)
 
 add_executable(Extends Unit5/main.cpp Unit5/person.h Unit5/person.cpp Unit5/Brass.h Unit5/Brass.cpp)
 
@@ -36,4 +36,7 @@ add_executable(CodeReuse Unit6/main.cpp Unit6/Contains.h Unit6/PrivateExtend.h U
 
 add_executable(FriendClass Unit7/Friend.h Unit7/Friend.cpp Unit7/main.cpp)
 
-add_executable(Exception Unit8/Exception.cpp)
+add_executable(NoException Unit8/NoException/error.cpp)
+add_executable(Exception Unit8/Exception/Exception.h Unit8/Exception/main.cpp)
+add_executable(Theory Unit8/Theory/Demo.h Unit8/Theory/main.cpp)
+add_executable(ExceptionSTDClass Unit8/ExceptionSTDClass/main.cpp)

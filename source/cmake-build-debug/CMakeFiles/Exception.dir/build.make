@@ -68,28 +68,28 @@ include CMakeFiles/Exception.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Exception.dir/flags.make
 
-CMakeFiles/Exception.dir/Unit8/Exception.cpp.obj: CMakeFiles/Exception.dir/flags.make
-CMakeFiles/Exception.dir/Unit8/Exception.cpp.obj: ../Unit8/Exception.cpp
-CMakeFiles/Exception.dir/Unit8/Exception.cpp.obj: CMakeFiles/Exception.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Exception.dir/Unit8/Exception.cpp.obj"
-	"D:\IDE\CLion\CLion 2021.3.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Exception.dir/Unit8/Exception.cpp.obj -MF CMakeFiles\Exception.dir\Unit8\Exception.cpp.obj.d -o CMakeFiles\Exception.dir\Unit8\Exception.cpp.obj -c E:\CodeNote\cplusplus-note\source\Unit8\Exception.cpp
+CMakeFiles/Exception.dir/Unit8/Exception/main.cpp.obj: CMakeFiles/Exception.dir/flags.make
+CMakeFiles/Exception.dir/Unit8/Exception/main.cpp.obj: ../Unit8/Exception/main.cpp
+CMakeFiles/Exception.dir/Unit8/Exception/main.cpp.obj: CMakeFiles/Exception.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\CodeNote\cplusplus-note\source\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Exception.dir/Unit8/Exception/main.cpp.obj"
+	"D:\IDE\CLion\CLion 2021.3.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Exception.dir/Unit8/Exception/main.cpp.obj -MF CMakeFiles\Exception.dir\Unit8\Exception\main.cpp.obj.d -o CMakeFiles\Exception.dir\Unit8\Exception\main.cpp.obj -c E:\CodeNote\cplusplus-note\source\Unit8\Exception\main.cpp
 
-CMakeFiles/Exception.dir/Unit8/Exception.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Exception.dir/Unit8/Exception.cpp.i"
-	"D:\IDE\CLion\CLion 2021.3.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\CodeNote\cplusplus-note\source\Unit8\Exception.cpp > CMakeFiles\Exception.dir\Unit8\Exception.cpp.i
+CMakeFiles/Exception.dir/Unit8/Exception/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Exception.dir/Unit8/Exception/main.cpp.i"
+	"D:\IDE\CLion\CLion 2021.3.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\CodeNote\cplusplus-note\source\Unit8\Exception\main.cpp > CMakeFiles\Exception.dir\Unit8\Exception\main.cpp.i
 
-CMakeFiles/Exception.dir/Unit8/Exception.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Exception.dir/Unit8/Exception.cpp.s"
-	"D:\IDE\CLion\CLion 2021.3.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\CodeNote\cplusplus-note\source\Unit8\Exception.cpp -o CMakeFiles\Exception.dir\Unit8\Exception.cpp.s
+CMakeFiles/Exception.dir/Unit8/Exception/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Exception.dir/Unit8/Exception/main.cpp.s"
+	"D:\IDE\CLion\CLion 2021.3.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\CodeNote\cplusplus-note\source\Unit8\Exception\main.cpp -o CMakeFiles\Exception.dir\Unit8\Exception\main.cpp.s
 
 # Object files for target Exception
 Exception_OBJECTS = \
-"CMakeFiles/Exception.dir/Unit8/Exception.cpp.obj"
+"CMakeFiles/Exception.dir/Unit8/Exception/main.cpp.obj"
 
 # External object files for target Exception
 Exception_EXTERNAL_OBJECTS =
 
-Exception.exe: CMakeFiles/Exception.dir/Unit8/Exception.cpp.obj
+Exception.exe: CMakeFiles/Exception.dir/Unit8/Exception/main.cpp.obj
 Exception.exe: CMakeFiles/Exception.dir/build.make
 Exception.exe: CMakeFiles/Exception.dir/linklibs.rsp
 Exception.exe: CMakeFiles/Exception.dir/objects1.rsp

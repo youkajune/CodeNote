@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/CodeNote/cplusplus-note/source/Unit8/Exception.cpp" "CMakeFiles/Exception.dir/Unit8/Exception.cpp.obj" "gcc" "CMakeFiles/Exception.dir/Unit8/Exception.cpp.obj.d"
+  "E:/CodeNote/cplusplus-note/source/Unit8/Exception/main.cpp" "CMakeFiles/Exception.dir/Unit8/Exception/main.cpp.obj" "gcc" "CMakeFiles/Exception.dir/Unit8/Exception/main.cpp.obj.d"
   )
 
 # Targets to which this target links.

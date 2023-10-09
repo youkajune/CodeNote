@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ATMQueue.dir/Unit4/atm.cpp.obj.d"
   "CMakeFiles/ATMQueue.dir/Unit4/client.cpp.obj"
   "CMakeFiles/ATMQueue.dir/Unit4/client.cpp.obj.d"
+  "CMakeFiles/ATMQueue.dir/Unit8/Theory/main.cpp.obj"
+  "CMakeFiles/ATMQueue.dir/Unit8/Theory/main.cpp.obj.d"
   "libATMQueue.dll.a"
 )
 

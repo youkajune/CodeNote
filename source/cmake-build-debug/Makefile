@@ -427,6 +427,45 @@ FriendClass/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FriendClass.dir\build.make CMakeFiles/FriendClass.dir/build
 .PHONY : FriendClass/fast
 
+#=============================================================================
+# Target rules for targets named NoException
+
+# Build rule for target.
+NoException: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 NoException
+.PHONY : NoException
+
+# fast build rule for target.
+NoException/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NoException.dir\build.make CMakeFiles/NoException.dir/build
+.PHONY : NoException/fast
+
+#=============================================================================
+# Target rules for targets named Theory
+
+# Build rule for target.
+Theory: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Theory
+.PHONY : Theory
+
+# fast build rule for target.
+Theory/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Theory.dir\build.make CMakeFiles/Theory.dir/build
+.PHONY : Theory/fast
+
+#=============================================================================
+# Target rules for targets named ExceptionSTDClass
+
+# Build rule for target.
+ExceptionSTDClass: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ExceptionSTDClass
+.PHONY : ExceptionSTDClass
+
+# fast build rule for target.
+ExceptionSTDClass/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExceptionSTDClass.dir\build.make CMakeFiles/ExceptionSTDClass.dir/build
+.PHONY : ExceptionSTDClass/fast
+
 Unit1/Link/link1.obj: Unit1/Link/link1.cpp.obj
 .PHONY : Unit1/Link/link1.obj
 
@@ -1366,29 +1405,104 @@ Unit7/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FriendClass.dir\build.make CMakeFiles/FriendClass.dir/Unit7/main.cpp.s
 .PHONY : Unit7/main.cpp.s
 
-Unit8/Exception.obj: Unit8/Exception.cpp.obj
-.PHONY : Unit8/Exception.obj
+Unit8/Exception/main.obj: Unit8/Exception/main.cpp.obj
+.PHONY : Unit8/Exception/main.obj
 
 # target to build an object file
-Unit8/Exception.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exception.dir\build.make CMakeFiles/Exception.dir/Unit8/Exception.cpp.obj
-.PHONY : Unit8/Exception.cpp.obj
+Unit8/Exception/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exception.dir\build.make CMakeFiles/Exception.dir/Unit8/Exception/main.cpp.obj
+.PHONY : Unit8/Exception/main.cpp.obj
 
-Unit8/Exception.i: Unit8/Exception.cpp.i
-.PHONY : Unit8/Exception.i
+Unit8/Exception/main.i: Unit8/Exception/main.cpp.i
+.PHONY : Unit8/Exception/main.i
 
 # target to preprocess a source file
-Unit8/Exception.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exception.dir\build.make CMakeFiles/Exception.dir/Unit8/Exception.cpp.i
-.PHONY : Unit8/Exception.cpp.i
+Unit8/Exception/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exception.dir\build.make CMakeFiles/Exception.dir/Unit8/Exception/main.cpp.i
+.PHONY : Unit8/Exception/main.cpp.i
 
-Unit8/Exception.s: Unit8/Exception.cpp.s
-.PHONY : Unit8/Exception.s
+Unit8/Exception/main.s: Unit8/Exception/main.cpp.s
+.PHONY : Unit8/Exception/main.s
 
 # target to generate assembly for a file
-Unit8/Exception.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exception.dir\build.make CMakeFiles/Exception.dir/Unit8/Exception.cpp.s
-.PHONY : Unit8/Exception.cpp.s
+Unit8/Exception/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exception.dir\build.make CMakeFiles/Exception.dir/Unit8/Exception/main.cpp.s
+.PHONY : Unit8/Exception/main.cpp.s
+
+Unit8/ExceptionSTDClass/main.obj: Unit8/ExceptionSTDClass/main.cpp.obj
+.PHONY : Unit8/ExceptionSTDClass/main.obj
+
+# target to build an object file
+Unit8/ExceptionSTDClass/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExceptionSTDClass.dir\build.make CMakeFiles/ExceptionSTDClass.dir/Unit8/ExceptionSTDClass/main.cpp.obj
+.PHONY : Unit8/ExceptionSTDClass/main.cpp.obj
+
+Unit8/ExceptionSTDClass/main.i: Unit8/ExceptionSTDClass/main.cpp.i
+.PHONY : Unit8/ExceptionSTDClass/main.i
+
+# target to preprocess a source file
+Unit8/ExceptionSTDClass/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExceptionSTDClass.dir\build.make CMakeFiles/ExceptionSTDClass.dir/Unit8/ExceptionSTDClass/main.cpp.i
+.PHONY : Unit8/ExceptionSTDClass/main.cpp.i
+
+Unit8/ExceptionSTDClass/main.s: Unit8/ExceptionSTDClass/main.cpp.s
+.PHONY : Unit8/ExceptionSTDClass/main.s
+
+# target to generate assembly for a file
+Unit8/ExceptionSTDClass/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExceptionSTDClass.dir\build.make CMakeFiles/ExceptionSTDClass.dir/Unit8/ExceptionSTDClass/main.cpp.s
+.PHONY : Unit8/ExceptionSTDClass/main.cpp.s
+
+Unit8/NoException/error.obj: Unit8/NoException/error.cpp.obj
+.PHONY : Unit8/NoException/error.obj
+
+# target to build an object file
+Unit8/NoException/error.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NoException.dir\build.make CMakeFiles/NoException.dir/Unit8/NoException/error.cpp.obj
+.PHONY : Unit8/NoException/error.cpp.obj
+
+Unit8/NoException/error.i: Unit8/NoException/error.cpp.i
+.PHONY : Unit8/NoException/error.i
+
+# target to preprocess a source file
+Unit8/NoException/error.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NoException.dir\build.make CMakeFiles/NoException.dir/Unit8/NoException/error.cpp.i
+.PHONY : Unit8/NoException/error.cpp.i
+
+Unit8/NoException/error.s: Unit8/NoException/error.cpp.s
+.PHONY : Unit8/NoException/error.s
+
+# target to generate assembly for a file
+Unit8/NoException/error.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NoException.dir\build.make CMakeFiles/NoException.dir/Unit8/NoException/error.cpp.s
+.PHONY : Unit8/NoException/error.cpp.s
+
+Unit8/Theory/main.obj: Unit8/Theory/main.cpp.obj
+.PHONY : Unit8/Theory/main.obj
+
+# target to build an object file
+Unit8/Theory/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ATMQueue.dir\build.make CMakeFiles/ATMQueue.dir/Unit8/Theory/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Theory.dir\build.make CMakeFiles/Theory.dir/Unit8/Theory/main.cpp.obj
+.PHONY : Unit8/Theory/main.cpp.obj
+
+Unit8/Theory/main.i: Unit8/Theory/main.cpp.i
+.PHONY : Unit8/Theory/main.i
+
+# target to preprocess a source file
+Unit8/Theory/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ATMQueue.dir\build.make CMakeFiles/ATMQueue.dir/Unit8/Theory/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Theory.dir\build.make CMakeFiles/Theory.dir/Unit8/Theory/main.cpp.i
+.PHONY : Unit8/Theory/main.cpp.i
+
+Unit8/Theory/main.s: Unit8/Theory/main.cpp.s
+.PHONY : Unit8/Theory/main.s
+
+# target to generate assembly for a file
+Unit8/Theory/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ATMQueue.dir\build.make CMakeFiles/ATMQueue.dir/Unit8/Theory/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Theory.dir\build.make CMakeFiles/Theory.dir/Unit8/Theory/main.cpp.s
+.PHONY : Unit8/Theory/main.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -1436,15 +1550,18 @@ help:
 	@echo ... Demo3
 	@echo ... DynamicMemory
 	@echo ... Exception
+	@echo ... ExceptionSTDClass
 	@echo ... Extends
 	@echo ... Friend
 	@echo ... FriendClass
 	@echo ... HelloWorld
 	@echo ... Link
+	@echo ... NoException
 	@echo ... Operator1
 	@echo ... Operator2
 	@echo ... Output
 	@echo ... PositionNew
+	@echo ... Theory
 	@echo ... TypeConversion
 	@echo ... Unit1/Link/link1.obj
 	@echo ... Unit1/Link/link1.i
@@ -1563,9 +1680,18 @@ help:
 	@echo ... Unit7/main.obj
 	@echo ... Unit7/main.i
 	@echo ... Unit7/main.s
-	@echo ... Unit8/Exception.obj
-	@echo ... Unit8/Exception.i
-	@echo ... Unit8/Exception.s
+	@echo ... Unit8/Exception/main.obj
+	@echo ... Unit8/Exception/main.i
+	@echo ... Unit8/Exception/main.s
+	@echo ... Unit8/ExceptionSTDClass/main.obj
+	@echo ... Unit8/ExceptionSTDClass/main.i
+	@echo ... Unit8/ExceptionSTDClass/main.s
+	@echo ... Unit8/NoException/error.obj
+	@echo ... Unit8/NoException/error.i
+	@echo ... Unit8/NoException/error.s
+	@echo ... Unit8/Theory/main.obj
+	@echo ... Unit8/Theory/main.i
+	@echo ... Unit8/Theory/main.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

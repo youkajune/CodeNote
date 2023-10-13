@@ -1225,6 +1225,50 @@
 					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="RTTI">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/RTTI.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 RTTI"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RTTI/fast">
+				<Option output="E:/CodeNote/cplusplus-note/source/cmake-build-debug/RTTI.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeNote/cplusplus-note/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 RTTI/fast"/>
+					<CompileFile command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/CLion/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CodeNote/cplusplus-note/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit1/Link/link1.cpp">
 			<Option target="Link"/>
@@ -1426,6 +1470,12 @@
 		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit8/Theory/main.cpp">
 			<Option target="ATMQueue"/>
 			<Option target="Theory"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit9/RTTI.h">
+			<Option target="RTTI"/>
+		</Unit>
+		<Unit filename="E:/CodeNote/cplusplus-note/source/Unit9/main.cpp">
+			<Option target="RTTI"/>
 		</Unit>
 		<Unit filename="E:/CodeNote/cplusplus-note/source/main.cpp">
 			<Option target="HelloWorld"/>

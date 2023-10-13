@@ -847,6 +847,8 @@ HmeanException::HmeanException(double a, double b) : v1(a), v2(b) {
 |overflow_error|stdexcept|**浮点数**计算中，计算结果比浮点类型的最小非零值还小时，将导致下溢错误。
 |underflow_error|stdexcept|**整型和浮点数**计算中，计算结果比该类型能表示的最大数量级还大时，将导致上溢错误。
 |bad_alloc|new|使用 new 动态分配空间失败时导致该异常。
+|bad_cast|typeinfo|当使用 dynamic_cast 运算符转换引用时，如果该转换不安全，则引发该异常。
+|bad_typeid|typeinfo|当使用 typeid 运算符(typeid(*p))的参数 p 是空指针时会引发该异常。
 
 ### logic_error
 
@@ -1037,8 +1039,7 @@ try {
 对于使用 new 导致的内存分配问题，C++的最新处理方式是让 new 引发 bad_alloc 异常。头文件 new 包含 bad_alloc 类的生命，它是从 exception 类公有派生而来的：
 
 ```cpp
-class bad_alloc : public exception
-{
+class bad_alloc : public exception {
 public:
     bad_alloc() throw() { }
     bad_alloc(const bad_alloc&) = default;
@@ -1104,6 +1105,32 @@ if (pb == nullptr) {
     cout << "申请失败.\n ";
     exit(EXIT_FAILURE);
 }
+```
+
+### bad_cast
+
+不在这里详细讲解，会在 RTTI 章节介绍。
+
+```cpp
+class bad_cast : public exception {
+public:
+    bad_cast() noexcept { }
+    virtual ~bad_cast() noexcept;
+    virtual const char* what() const noexcept;
+};
+```
+
+### bad_typeid
+
+不在这里详细讲解，会在 RTTI 章节介绍。
+
+```cpp
+class bad_typeid : public exception {
+public:
+    bad_typeid () noexcept { }
+    virtual ~bad_typeid() noexcept;
+    virtual const char* what() const noexcept;
+};
 ```
 
 ## 异常、类和继承

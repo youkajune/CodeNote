@@ -40,3 +40,5 @@ add_executable(NoException Unit8/NoException/error.cpp)
 add_executable(Exception Unit8/Exception/Exception.h Unit8/Exception/main.cpp)
 add_executable(Theory Unit8/Theory/Demo.h Unit8/Theory/main.cpp)
 add_executable(ExceptionSTDClass Unit8/ExceptionSTDClass/main.cpp)
+
+add_executable(RTTI Unit9/RTTI.h Unit9/main.cpp)

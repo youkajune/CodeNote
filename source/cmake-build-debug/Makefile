@@ -479,6 +479,19 @@ RTTI/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RTTI.dir\build.make CMakeFiles/RTTI.dir/build
 .PHONY : RTTI/fast
 
+#=============================================================================
+# Target rules for targets named STL
+
+# Build rule for target.
+STL: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 STL
+.PHONY : STL
+
+# fast build rule for target.
+STL/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL.dir\build.make CMakeFiles/STL.dir/build
+.PHONY : STL/fast
+
 Unit1/Link/link1.obj: Unit1/Link/link1.cpp.obj
 .PHONY : Unit1/Link/link1.obj
 
@@ -598,6 +611,30 @@ Unit1/Struct/struct2.s: Unit1/Struct/struct2.c.s
 Unit1/Struct/struct2.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Struct2.dir\build.make CMakeFiles/C_Struct2.dir/Unit1/Struct/struct2.c.s
 .PHONY : Unit1/Struct/struct2.c.s
+
+Unit10/main.obj: Unit10/main.cpp.obj
+.PHONY : Unit10/main.obj
+
+# target to build an object file
+Unit10/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL.dir\build.make CMakeFiles/STL.dir/Unit10/main.cpp.obj
+.PHONY : Unit10/main.cpp.obj
+
+Unit10/main.i: Unit10/main.cpp.i
+.PHONY : Unit10/main.i
+
+# target to preprocess a source file
+Unit10/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL.dir\build.make CMakeFiles/STL.dir/Unit10/main.cpp.i
+.PHONY : Unit10/main.cpp.i
+
+Unit10/main.s: Unit10/main.cpp.s
+.PHONY : Unit10/main.s
+
+# target to generate assembly for a file
+Unit10/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL.dir\build.make CMakeFiles/STL.dir/Unit10/main.cpp.s
+.PHONY : Unit10/main.cpp.s
 
 Unit2/Class_Flexible_Demo/complex_c.obj: Unit2/Class_Flexible_Demo/complex_c.c.obj
 .PHONY : Unit2/Class_Flexible_Demo/complex_c.obj
@@ -1599,6 +1636,7 @@ help:
 	@echo ... Output
 	@echo ... PositionNew
 	@echo ... RTTI
+	@echo ... STL
 	@echo ... Theory
 	@echo ... TypeConversion
 	@echo ... Unit1/Link/link1.obj
@@ -1616,6 +1654,9 @@ help:
 	@echo ... Unit1/Struct/struct2.obj
 	@echo ... Unit1/Struct/struct2.i
 	@echo ... Unit1/Struct/struct2.s
+	@echo ... Unit10/main.obj
+	@echo ... Unit10/main.i
+	@echo ... Unit10/main.s
 	@echo ... Unit2/Class_Flexible_Demo/complex_c.obj
 	@echo ... Unit2/Class_Flexible_Demo/complex_c.i
 	@echo ... Unit2/Class_Flexible_Demo/complex_c.s

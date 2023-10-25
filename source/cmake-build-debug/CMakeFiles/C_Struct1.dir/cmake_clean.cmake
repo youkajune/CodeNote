@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/C_Struct1.dir/Unit1/Struct/struct1.c.obj"
-  "CMakeFiles/C_Struct1.dir/Unit1/Struct/struct1.c.obj.d"
   "C_Struct1.exe"
   "C_Struct1.exe.manifest"
   "C_Struct1.pdb"

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Note/Code Language/the-cpp/source/Unit10/main.cpp
+string
+-
+iostream
+-
+fstream
+-
+ctime
+-
+

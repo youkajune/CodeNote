@@ -4,12 +4,21 @@ set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
 
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "E:/Note/Code Language/the-cpp/source/Unit3/Operator/demo1.cpp" "E:/Note/Code Language/the-cpp/source/cmake-build-debug/CMakeFiles/Operator1.dir/Unit3/Operator/demo1.cpp.obj"
+  "E:/Note/Code Language/the-cpp/source/Unit3/Operator/mytime1.cpp" "E:/Note/Code Language/the-cpp/source/cmake-build-debug/CMakeFiles/Operator1.dir/Unit3/Operator/mytime1.cpp.obj"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
   )
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/CodeNote/cplusplus-note/source/Unit3/Operator/demo1.cpp" "CMakeFiles/Operator1.dir/Unit3/Operator/demo1.cpp.obj" "gcc" "CMakeFiles/Operator1.dir/Unit3/Operator/demo1.cpp.obj.d"
-  "E:/CodeNote/cplusplus-note/source/Unit3/Operator/mytime1.cpp" "CMakeFiles/Operator1.dir/Unit3/Operator/mytime1.cpp.obj" "gcc" "CMakeFiles/Operator1.dir/Unit3/Operator/mytime1.cpp.obj.d"
   )
 
 # Targets to which this target links.

@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Theory.dir/Unit8/Theory/main.cpp.obj"
-  "CMakeFiles/Theory.dir/Unit8/Theory/main.cpp.obj.d"
   "Theory.exe"
   "Theory.exe.manifest"
   "Theory.pdb"

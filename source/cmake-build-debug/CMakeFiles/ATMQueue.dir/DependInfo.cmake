@@ -4,13 +4,22 @@ set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
 
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "E:/Note/Code Language/the-cpp/source/Unit4/atm.cpp" "E:/Note/Code Language/the-cpp/source/cmake-build-debug/CMakeFiles/ATMQueue.dir/Unit4/atm.cpp.obj"
+  "E:/Note/Code Language/the-cpp/source/Unit4/client.cpp" "E:/Note/Code Language/the-cpp/source/cmake-build-debug/CMakeFiles/ATMQueue.dir/Unit4/client.cpp.obj"
+  "E:/Note/Code Language/the-cpp/source/Unit8/Theory/main.cpp" "E:/Note/Code Language/the-cpp/source/cmake-build-debug/CMakeFiles/ATMQueue.dir/Unit8/Theory/main.cpp.obj"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
   )
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/CodeNote/cplusplus-note/source/Unit4/atm.cpp" "CMakeFiles/ATMQueue.dir/Unit4/atm.cpp.obj" "gcc" "CMakeFiles/ATMQueue.dir/Unit4/atm.cpp.obj.d"
-  "E:/CodeNote/cplusplus-note/source/Unit4/client.cpp" "CMakeFiles/ATMQueue.dir/Unit4/client.cpp.obj" "gcc" "CMakeFiles/ATMQueue.dir/Unit4/client.cpp.obj.d"
-  "E:/CodeNote/cplusplus-note/source/Unit8/Theory/main.cpp" "CMakeFiles/ATMQueue.dir/Unit8/Theory/main.cpp.obj" "gcc" "CMakeFiles/ATMQueue.dir/Unit8/Theory/main.cpp.obj.d"
   )
 
 # Targets to which this target links.

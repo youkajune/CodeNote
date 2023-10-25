@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/RTTI.dir/Unit9/main.cpp.obj"
-  "CMakeFiles/RTTI.dir/Unit9/main.cpp.obj.d"
   "RTTI.exe"
   "RTTI.exe.manifest"
   "RTTI.pdb"

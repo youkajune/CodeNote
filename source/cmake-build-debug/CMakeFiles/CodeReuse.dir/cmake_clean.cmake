@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/CodeReuse.dir/Unit6/main.cpp.obj"
-  "CMakeFiles/CodeReuse.dir/Unit6/main.cpp.obj.d"
   "CodeReuse.exe"
   "CodeReuse.exe.manifest"
   "CodeReuse.pdb"

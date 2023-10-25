@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/PositionNew.dir/Unit4/position_new.cpp.obj"
-  "CMakeFiles/PositionNew.dir/Unit4/position_new.cpp.obj.d"
   "PositionNew.exe"
   "PositionNew.exe.manifest"
   "PositionNew.pdb"

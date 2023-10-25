@@ -42,3 +42,5 @@ add_executable(Theory Unit8/Theory/Demo.h Unit8/Theory/main.cpp)
 add_executable(ExceptionSTDClass Unit8/ExceptionSTDClass/main.cpp)
 
 add_executable(RTTI Unit9/RTTI.h Unit9/main.cpp)
+
+add_executable(STL Unit10/main.cpp)

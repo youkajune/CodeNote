@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/TypeConversion.dir/Unit3/TypeConversion/demo.cpp.obj"
-  "CMakeFiles/TypeConversion.dir/Unit3/TypeConversion/demo.cpp.obj.d"
   "CMakeFiles/TypeConversion.dir/Unit3/TypeConversion/stone.cpp.obj"
-  "CMakeFiles/TypeConversion.dir/Unit3/TypeConversion/stone.cpp.obj.d"
   "TypeConversion.exe"
   "TypeConversion.exe.manifest"
   "TypeConversion.pdb"

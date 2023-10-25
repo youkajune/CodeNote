@@ -1,3 +1,3 @@
-"D:\IDE\CLion\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Friend.dir/objects.a
-"D:\IDE\CLion\CLion 2021.3.2\bin\mingw\bin\ar.exe" qc CMakeFiles\Friend.dir/objects.a @CMakeFiles\Friend.dir\objects1.rsp
-"D:\IDE\CLion\CLion 2021.3.2\bin\mingw\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\Friend.dir/objects.a -Wl,--no-whole-archive -o Friend.exe -Wl,--out-implib,libFriend.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Friend.dir\linklibs.rsp
+E:\IDE\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\Friend.dir/objects.a
+E:\DevelopmentKit\MinGW\bin\ar.exe cr CMakeFiles\Friend.dir/objects.a @CMakeFiles\Friend.dir\objects1.rsp
+E:\DevelopmentKit\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Friend.dir/objects.a -Wl,--no-whole-archive -o Friend.exe -Wl,--out-implib,libFriend.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Friend.dir\linklibs.rsp

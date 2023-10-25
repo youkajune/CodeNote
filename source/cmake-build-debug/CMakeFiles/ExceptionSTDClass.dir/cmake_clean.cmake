@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ExceptionSTDClass.dir/Unit8/ExceptionSTDClass/main.cpp.obj"
-  "CMakeFiles/ExceptionSTDClass.dir/Unit8/ExceptionSTDClass/main.cpp.obj.d"
   "ExceptionSTDClass.exe"
   "ExceptionSTDClass.exe.manifest"
   "ExceptionSTDClass.pdb"

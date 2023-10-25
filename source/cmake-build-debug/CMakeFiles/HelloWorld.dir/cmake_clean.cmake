@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/HelloWorld.dir/main.cpp.obj"
-  "CMakeFiles/HelloWorld.dir/main.cpp.obj.d"
   "HelloWorld.exe"
   "HelloWorld.exe.manifest"
   "HelloWorld.pdb"

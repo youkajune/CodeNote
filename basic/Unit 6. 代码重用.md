@@ -1371,19 +1371,19 @@ template<typename Type>
 class ArrayL {
 private:
     Type item;
-}
+}; // 基类
 
 template<typename T>
 class GrowArrayL : public ArrayL<T> {
     // ...
-};
+}; // 派生类
 
 template<typename Type>
 class Stack {
     ArrayL<Type> arr;
-}
+}; // Array 模板类作为组件类
 ...
-ArrayL < Stack<int> > asi;
+ArrayL < Stack<int> > asi; // Stack<int> 作为 ArrayL 模板类的类型参数生成一个 ArrayL 实例
 ```
 
 > 注意，C++98要求最后的两个 > 符号至少要被一个空白字符分开，以免于 >> 运算符混淆。C++11则不要求这样做。
@@ -1410,7 +1410,7 @@ int main() {
     using std::endl;
     Array<int, 10> sum; // 保存和的数组
     Array<double, 10> average; // 保存平均值的数组
-    Array<Array<int, 5>, 10> arr; // 保存元素的二维数组 arr[10][Unit5]
+    Array<Array<int, 5>, 10> arr; // 保存元素的二维数组相当于 arr[10][5]
     
     int i, j;
     for (i = 0; i < 10; ++i) {
@@ -1547,9 +1547,10 @@ Demo<string> d2; // T1 is string, T2 is int
 
 ### 模板的具体化
 
-类模板与函数模板相似，因为可以有隐式实例化、显式实例化和显式具体化，它们统称为具体化。模板以泛型的方式描述类，而具体化是使用具体的类型生成类声明。
+类模板与函数模板相似，可以有隐式实例化、显式实例化和显式具体化，它们统称为具体化。模板以泛型的方式描述类，而具体化是使用具体的类型生成类声明。
 
 #### 隐式实例化
+
 我们前面所有的模板示例使用的都是隐式实例化，即它们声明一个或多个对象，指出所需的类型，而编译器使用通用模板提供的代码生成具体的类定义：
 
 ```cpp
@@ -1577,7 +1578,7 @@ template class Array<string, 10>; // 生成Array<string, 10>这个类
 
 #### 显式具体化
 
-显式具体化or定制化(explicit specialization)是特定类型(用于替换模板中的泛型)的定义。有时候，可能需要在为特殊类型实例化时，队模板进行修改，使其行为不同。在这种情况下，可以创建显式具体化，具体化也就是特定化，是为类模板的某个类型参数指定一个特殊的版本。
+显式具体化or定制化(explicit specialization)是特定类型(用于替换模板中的泛型)的定义。有时候，可能需要在为特殊类型实例化时，对模板进行修改，使其行为不同。在这种情况下，可以创建显式具体化，具体化也就是特定化，是为类模板的某个类型参数指定一个特殊的版本。
 具体化类模板定义的格式如下：
 
 ```cpp
@@ -1670,6 +1671,13 @@ Demo<int, short, char*> d1; // 通用模板
 Demo<int, short> d2; // 部分具体化 Demo<int, short, short>
 Demo<char, char *, char *> d3; // 部分具体化 Demo<char, char*, char*>
 ```
+
+#### 小结
+
+模板的具体化（specialization）分为隐式实例化（implicit instantiation）、显式实例化（explicit instantiation）和显式具体化（explicit specialization）。
+模板以泛型的方式描述函数（类），而具体化是使用具体的类型生成函数（类）声明。
+**显式实例化和显式具体化的区别**：显式实例化只需要写声明不需要写定义，显式实例化的定义与隐式实例化一样由编译器生成。而显式具体化(也可以称为显式特化或全局特化)，除了声明还必须写定义，也就是说可以选择修改基本模板的功能。
+> 可以说显式具体化和基本模板只有名称有关联。
 
 ### 将模板作为类成员(嵌套)
 

@@ -1274,6 +1274,9 @@
 		<Unit filename="E:/Note/Code Language/the-cpp/source/Unit10/main.cpp">
 			<Option target="STL"/>
 		</Unit>
+		<Unit filename="E:/Note/Code Language/the-cpp/source/Unit10/smart_ptr.h">
+			<Option target="STL"/>
+		</Unit>
 		<Unit filename="E:/Note/Code Language/the-cpp/source/Unit2/Class Flexible Demo/complex_c.c">
 			<Option target="C_Customization"/>
 		</Unit>

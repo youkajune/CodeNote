@@ -690,3 +690,276 @@ class allocator;
 
 > 更多 string 信息可以查看 String 类文档： [C++ Reference](https://cplusplus.com/reference/string/string/?kw=string)
 
+## 智能指针模板类
+
+### Overview
+
+智能指针是行为类似于指针的类对象，但这种对象还有其他功能。本节将介绍三个可帮助管理动态内存分配的智能指针模板。先来看看需要哪些功能，以及这些功能是如何实现的。
+
+```cpp
+void func(std::string & str) {
+    std::string * ps = new std::string(str);
+    ...
+    return;
+}
+```
+
+您可能也发现了上述代码片段的缺陷，即每当调用 func 函数时都会分配堆中的内存，但从不回收，从而导致内存泄漏。您可能也知道解决之道 —— 只要别忘了在 return 语句的前面加上`delete ps`以释放分配的内存即可。
+
+然而，但凡涉及到“别忘了”的解决方法，很少是最佳的。因为您有时可能会忘了，有时可能您记住了，但可能不经意之间删除或注释掉了这些代码。即使确实没忘记，也有可能有问题。请看下面的变体：
+
+```cpp
+void func(std::string & str) {
+    std::string * ps = new std::string(str);
+    ...
+    if (condition()) {
+        throw exception();
+    }
+    delete ps;
+    return;
+}
+```
+
+当出现异常时，delete 将不被执行，因此也将导致内存泄漏。
+
+先来分析下我们需要些什么：当 func() 函数终止(不论是正常终止，还是由于出现了异常而终止)，func()的局部变量都应该从栈内存中删除 —— 因此指针 ps 占据的内存将被释放。如果 ps 指针能有一个析构函数，该析构函数在 ps 过期时释放它指向的内存，那该多好。因此 ps 的问题在于，它只是一个常规的指针，不是带有析构函数的类对象。如果它是对象，则可以在对象过期时，让它的析构函数删除指向的内存。这正是 auto_ptr、unique_ptr 和 shared_ptr 背后的思想。
+> 注意：模板 auto_ptr 是 C++98 的解决方案,c++11 已经将其摒弃，并提供了另外两种解决方案。然而，虽然 auto_ptr 被摒弃，但它已使用了多年；同时，如果您的编译器不支持其他两种解决方案，auto_ptr 将是唯一的选择。
+
+### 智能指针的使用方法
+
+auto_ptr、unique_str 和 shared_ptr 这三个智能指针都定义了类似指针的对象，可以将 new 获得的地址赋给这种对象。当智能指针过期时，其析构函数将使用 delete 来释放内存。因此，如果将 new 返回的地址赋给这种对象，就无需记住稍后释放这些内存。因为智能指针过期时，这些内存将自动被释放。
+
+下图说明了 auto_ptr 智能指针和常规指针在行为方面的差异：
+> unique_str 和 shared_ptr 的行为与 auto_ptr 相同。
+
+![](../picture/basic/10-2.png)
+
+要创建智能指针对象，必须包含头文件 memory，然后使用通常的模板语法来实例化所需类型的指针。
+
+模板 auto_ptr 包含以下构造函数：
+
+```cpp
+// auto_ptr 部分类定义
+template<typename _Tp> class auto_ptr {
+public:
+    explicit auto_ptr(_Tp * __p = 0) throw();
+}
+
+// 使用 auto_ptr
+auto_ptr<double> pd(new double);
+
+std::string * ps1 = new std::string();
+auto_ptr<std::string> ps2(ps1);
+```
+
+前面说过，throw() 表示该构造函数不会引发异常。
+> throw() 与 auto_ptr 一样，都在 C++11 中被摒弃，throw() 在 C++11 中被 noexcept 替代。
+
+`new double`是 new 返回的指针，指向新分配的内存块。它是构造函数`auto_ptr<double>`的参数，即类声明中构造函数原型的形参`__p`。其他两种智能指针使用相同的语法：
+
+```cpp
+unique_ptr<double> pdu(new double);
+shared_ptr<double> pds(new std::string);
+```
+
+因此，修改后的 func 实现应按以下步骤进行：
+1. 包含头文件 memory；
+2. 将指向 string 的指针替换为指向 string 的智能指针对象；
+3. 删除 delete 语句。
+
+```cpp
+#include <memory>
+void func(std::string & str) {
+    std::auto_ptr<std::string> ps(new std::string(str));
+    // ...
+    if (condition()) {
+        throw exception();
+    }
+    return;
+}
+```
+
+### 智能指针使用练习
+
+编写一个程序来演示全部三种智能指针的使用。
+
+```cpp
+class Report {
+
+private:
+    std::string str;
+public:
+    Report(const std::string s) : str(s) { std::cout << "Report object created!\n"; }
+
+    virtual ~Report() { std::cout << "Report object deleted!\n"; }
+
+    void comment() const { std::cout << str << endl; }
+};
+
+/**
+ * 演示 auto_ptr、unique_ptr、shared_ptr 这三个智能指针的使用
+ **/
+int main() {
+    {
+        std::auto_ptr<Report> ps(new Report("using auto_ptr"));
+        ps->comment();
+    }
+    {
+        std::unique_ptr<Report> ps(new Report("using unique_ptr"));
+        ps->comment();
+    }
+    {
+        std::shared_ptr<Report> ps(new Report("using shared_ptr"));
+        ps->comment();
+    }
+    return 0;
+}
+```
+
+```cpp
+// 输出:
+Report object created!
+using auto_ptr
+Report object deleted!
+Report object created!
+using unique_ptr
+Report object deleted!
+Report object created!
+using shared_ptr
+Report object deleted!
+```
+
+所有智能指针类都有一个 explicit 构造函数，该构造函数将指针作为参数。
+
+```cpp
+shared_ptr<double> pd;
+double * p = new double;
+pd = p; // 不允许，隐式转换
+pd = shared_ptr<double>(p); // 允许，显式转换
+shared_ptr<double> pshared1 = p; // 不允许，隐式转换
+shared_ptr<double> pshared2(p); // 允许，显式转换
+```
+
+由于智能指针模板类的定义方法，智能指针对象的很多方面都类似于常规指针。例如，如果 ps 是一个智能指针对象，则可以对它执行解除引用操作(`*ps`)、用它来访问类成员(`ps->n`)、将它赋给指向相同类型的常规指针。
+
+还可以将智能指针对象赋给另一个同类型的智能指针对象，但将引起一个问题，后面会讲到。在此之前，先说说这三种智能指针都应该避免的一点：
+
+```cpp
+string str("I am a string");
+shared_ptr<string> ps(&str); // 不要这样做
+```
+
+当智能指针 ps 过期时，它的析构函数将把 delete 运算符用于非堆内存上，这是错误的。
+
+单从 func 的演示来看，三种智能指针都能满足要求，但情况并非总是像 func 那样简单。
+
+### 智能指针的注意事项
+
+为什么要有三种智能指针？又为何要摒弃 auto_ptr？
+> 实际上智能指针有四种，最后一种是 weak_ptr，这里不做讨论，有兴趣的可以自行查找资料。
+
+先来看一段程序：
+
+```cpp
+auto_ptr<string> ps(new string("I am a string."));
+auto_ptr<string> temp;
+temp = ps;
+```
+
+上述的赋值语句将完成什么工作？如果 ps 和 temp 都是常规指针，则这两个指针将指向同一个 string 对象。这是不能接受的，因为程序会试图删除同一个对象两次 —— 一次是 ps 过期时，另一次是 temp 过期时。要避免这种问题，方法有多种：
+- 重定义赋值运算符，使之执行深复制。这样两个指针将指向不同的对象，其中一个对象是另一个对象的副本。
+- 建立所有权的概念，对于特定的对象，只能有一个智能指针可以拥有它，这样只有拥有对象的智能指针的构造函数会删除该对象。然后，让赋值操作转让所有权。这就是用于 auto_ptr 和 unique_ptr 的策略，但 unique_ptr 的策略更严格。
+- 创建智能更高的指针，跟踪引用特定对象的智能指针数。这称为引用计数。例如，赋值时，将计数加1，而指针过期时，计数将减1.仅当最后一个指针过期时，才调用 delete。这就是 shared_ptr 采用的策略。
+
+下面是一个不适用 auto_ptr 的示例。
+
+```cpp
+int main() {
+    std::auto_ptr<std::string> films[5] = {
+            std::auto_ptr<std::string>(new std::string("Fowl Balls")),
+            std::auto_ptr<std::string>(new std::string("Duck Walks")),
+            std::auto_ptr<std::string>(new std::string("Chicken Runs")),
+            std::auto_ptr<std::string>(new std::string("Turkey Errors")),
+            std::auto_ptr<std::string>(new std::string("Goose Eggs"))
+    };
+    std::auto_ptr<std::string> pwin;
+    pwin = films[2]; // films[2] 丢失所有权
+
+    std::cout << "The nominees for best avian baseball film are\n";
+    for (int i = 0; i < 5; ++i) {
+        std::cout << *films[i] << std::endl;
+    }
+    std::cout << "The winner is " << *pwin << "!\n";
+    
+    return 0;
+}
+```
+
+这里的问题在于`pwin = films[2];`语句将`films[2]`的所有权转让给 pwin，这导致`films[2]`不再引用该字符串。在 auto_ptr 放弃对象的所有权之后，可能依旧会使用它来访问对象。比如这个程序中，打印`films[2]`指向的字符串时，就会发现这是一个空指针。
+
+如果在程序中使用 shared_ptr 代替 auto_ptr，则程序能正常运行。它们的区别就在于：
+
+```cpp
+std::shared<std::string> pwin;
+pwin = films[2];
+```
+
+这次 pwin 和`films[2]`指向同一个对象，而引用计数从 1 增加到 2。当程序结束时，会先调用后声明的 pwin 的析构函数，该析构函数会将引用计数降低为 1.然后 shared_ptr 数组被依次释放，当调用到`films[2]`的析构函数时，将引用计数降低为 0，并释放之前分配的空间。
+
+因此，shared_ptr 可以使这个程序正常运行，而 auto_ptr 会在运行阶段崩溃。如果使用 unique_ptr，结果如何？答：会与 auto_ptr 一样，因为 unique_ptr 也采用所有权模型。但使用 unique_str 时，程序不会等到运行阶段崩溃，而是在编译阶段会因下述代码报错：
+
+```cpp
+pwin = films[2];
+```
+
+接下来就进一步探索 auto_ptr 与 unique_ptr 之间的差别。
+
+### unique_ptr 为何优于 auto_ptr
+
+请看下面的 aotu_ptr 语句：
+
+```cpp
+auto_ptr<string> p1(new string("auto")); // #1
+auto_ptr<string> p2;                     // #2
+p2 = p1;                                 // #3
+```
+
+在语句#3中，p2 接管了 string 对象的所有权后，p1 的所有权将被剥夺。前面说过，这是件好事，可防止 p1 和 p2 的析构函数试图删除同一个对象；但如果程序随后试图使用 p1，这却是件坏事，因为 p1 不再指向有效的数据。
+
+下面来看看使用 unique_str 的情况：
+
+```cpp
+unique_ptr<string> p3(new string("auto")); // #4
+unique_ptr<string> p4;                     // #5
+p4 = p3;                                   // #6
+```
+
+编译器会认为语句#6非法，这样避免了 auto_ptr 的 p3 已经不再指向有效数据的问题。因此，unique_ptr 比 auto_ptr 更安全(编译阶段的错误比潜在的程序崩溃更安全)。
+
+但有时候，将一个智能指针赋给另一个并不会留下危险的悬挂指针。例如：
+
+```cpp
+unique_ptr<string> demo(const char* s) {
+    unique_ptr<string> temp(new string(s));
+    return temp;
+}
+
+int main() {
+    unique_ptr<string> ps;
+    ps = demo("Hello World.");
+}
+```
+
+demo() 返回一个临时 unique_ptr，然后 ps 接管了原本归 demo 返回的 unique_ptr 所有的对象，而返回的 unique_ptr 被销毁。这没有问题，因为 ps 拥有了 string 对象的所有权。但这里的另一个好处是，demo() 返回的临时 unique_ptr 很快就被销毁，没有机会使用它来访问无效的数据。换句话说，没有理由禁止这种赋值。
+
+总之，程序使用将一个 unique_ptr 赋给另一个时，如果源 unique_ptr 是个临时右值，编译器允许这样做；如果源 unique_ptr 将存在一段时间，编译器将禁止这样做：
+
+```cpp
+unique_ptr<string> p1(new string("Hello"));
+unique_ptr<string> p2;
+
+p2 = p1; // 不允许
+
+unique_ptr<string> p3;
+p3 = unique_ptr<string>(new string("World")); // 允许
+```

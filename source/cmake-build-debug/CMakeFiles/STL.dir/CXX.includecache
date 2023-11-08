@@ -7,6 +7,26 @@
 #IncludeRegexTransform: 
 
 E:/Note/Code Language/the-cpp/source/Unit10/main.cpp
+string.h
+E:/Note/Code Language/the-cpp/source/Unit10/string.h
+memory
+-
+vector
+-
+smart_ptr.h
+E:/Note/Code Language/the-cpp/source/Unit10/smart_ptr.h
+vector.h
+E:/Note/Code Language/the-cpp/source/Unit10/vector.h
+
+E:/Note/Code Language/the-cpp/source/Unit10/smart_ptr.h
+string
+-
+iostream
+-
+algorithm
+-
+
+E:/Note/Code Language/the-cpp/source/Unit10/string.h
 string
 -
 iostream
@@ -15,14 +35,10 @@ fstream
 -
 ctime
 -
-memory
--
-smart_ptr.h
-E:/Note/Code Language/the-cpp/source/Unit10/smart_ptr.h
 
-E:/Note/Code Language/the-cpp/source/Unit10/smart_ptr.h
-string
--
+E:/Note/Code Language/the-cpp/source/Unit10/vector.h
 iostream
+-
+vector
 -
 

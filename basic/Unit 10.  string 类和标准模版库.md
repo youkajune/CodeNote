@@ -958,8 +958,593 @@ demo() 返回一个临时 unique_ptr，然后 ps 接管了原本归 demo 返回�
 unique_ptr<string> p1(new string("Hello"));
 unique_ptr<string> p2;
 
-p2 = p1; // 不允许
+p2 = p1; // #1 不允许
 
 unique_ptr<string> p3;
-p3 = unique_ptr<string>(new string("World")); // 允许
+p3 = unique_ptr<string>(new string("World")); // #2 允许
 ```
+
+语句 #1 将留下悬挂的 unique_ptr(p1)，这可能导致危害，因此不被编译器允许。语句 #2 不会留下悬挂的 unique_ptr，因为它调用 unique_ptr 的构造函数，该构造函数创建的临时对象在将其所有权转让给 p3 之后会被销毁。
+正是这种随情况而异的行为表明 unique_ptr 优于允许两种赋值的 auto_ptr。这也是禁止在容器对象中使用 auto_ptr，但允许使用 unique_ptr 的原因。
+如果容器算法试图队包含 unique_ptr 的容器执行类似 #1 的操作将导致编译错误；如果算法试图执行类似于语句 #2 的操作，则不会有任何问题。而对于 auto_ptr，类似于语句 #1 的操作可能导致不确定的行为和神秘的崩溃。
+
+当然，有时您可能确实想执行类似于语句 #1 的操作。仅当以非智能的方式使用遗弃的智能指针(如解除引用)，这种赋值才不安全。要安全地重用这种指针，可给它赋新值。C++提供了一个标准库函数`std::move()`，让您能够将一个 unique_ptr 赋给另一个：
+
+```cpp
+using namespace std;
+
+unique_ptr<string> ps1, ps2;
+
+ps1 = deme("Unique ptr");
+ps2 = move(ps1);   // 允许
+ps1 = demo(" more");
+cout << *ps2 << *ps1 << endl;
+```
+
+您可能会问，unique_ptr 如何判断是安全地赋值还是不安全？答案是它使用 C++11 新增的移动构造函数和右值引用，这将在后续章节中讲解。
+
+相比于 auto_ptr，unique_ptr 还有一个有点：它有一个可用于数组的变体。别忘了，必须将 new 和 delete，new[] 和 delete[] 配对使用。模板 auto_ptr 使用 delete 而不是 delete[]，因此只能与 new 一起使用，而不能与 new[] 一起使用。但 unique_ptr 有使用 new[] 和 delete[] 的版本：
+
+```cpp
+std::unique_ptr<double []> pd(new double(5));
+```
+
+> Warning: 使用 new 分配内存时，才能使用 auto_ptr 和 shared_ptr，使用 new[] 分配内存时不能使用它们。
+> 不使用 new 分配内存时，不能使用 auto_ptr 或 shared_ptr；不使用 new 或 new[] 分配内存时，不能使用 unique_ptr。
+
+### 选择智能指针
+
+应使用哪种智能指针？
+
+如果程序要使用多个指向同一对象的指针，应选择 shared_ptr。这样的情况包括：有一个指针数组，并使用一些辅助指针来标识特定的元素，如最大的元素和最小的元素；两个对象包含都指向第三个对象的指针；STL 容器包含指针。很多 STL 算法都支持复制和赋值操作，这些操作可用于 shared_ptr，但不能用于 unique_ptr(编译器报错) 和 auto_ptr(行为不确定)。
+> 如果您的编译器没有提供 shared_ptr，可使用 Boost 库提供的 shared_ptr。
+
+如果程序不需要多个指向同一对象的指针，则可使用 unique_ptr。如果函数使用 new 分配内存，并返回指向该内存的指针，将其返回类型声明为 unique_ptr 是不错的选择。这样，所有权将转让给接受返回值的 unique_ptr，而该智能指针负责调用 delete。可将 unique_ptr 存储到 STL 容器中，只要不调用将一个 unique_ptr 复制或赋值给另一个 unique_ptr 指针的方法或算法。例如，可以在程序中使用类似于下面的代码：
+
+```cpp
+unique_ptr<int> make(int n) {
+    return unique_ptr<int>(new int(n));
+}
+
+void show(unique_ptr<int> & pi) {
+    cout << *pi << " ";
+}
+
+int main() {
+    // ...
+    vector<unique_ptr<int>> vp(size);
+    for (int i = 0; i < vp.size(); i++) {
+        vp[i] = make(rand() % 1000);
+    }
+    vp.push_back(make(rand() % 1000));
+    for_each(vp.begin(), vp.end(), show); // for_each() in header file <algorithm>
+    // ...
+}
+```
+
+其中的 push_back() 调用没有问题，因为它返回一个临时的 unique_ptr，该 unique_ptr 被赋给 vp 中的一个 unique_ptr。
+另外，如果是按值而不是按引用给 show() 传递对象，则 for_each 语句将非法，因为这将导致使用一个来自 vp 的非临时 unique_ptr 初始化 pi，这是不被允许的。因为，编译器将发现错误使用 unique_ptr 的企图。
+
+在 unique_ptr 为右值时，可将其赋给 shared_ptr，这与将 unique_ptr 赋给另一个需要满足的条件相同。
+
+```cpp
+unique_ptr<int> pi(make(rand()%1000)); // ok
+shared_ptr<int> si1(pi); // not allowed, pi is a left value
+shared_ptr<int> si2(make(rand()%1000)); // ok
+```
+
+这是因为模板 shared_ptr 包含一个显式构造函数 —— 可用于将右值 unique_ptr 转换为 shared_ptr。shared_ptr 将接管原来归 unique_ptr 所有的对象。
+
+在满足 unique_ptr 要求的条件时，也可以使用 auto_ptr，但 unique_ptr 是更好的选择。如果您的编译器不提供 unique_ptr，可考虑使用 BOOST 库提供的 scoped_ptr，它与 unique_ptr 类似。
+
+## 标准模板库
+
+### Overview
+
+STL 提供了一组表示容器、迭代器、函数对象和算法的模板。
+**容器**是一个与数组类似的单元，可以存储若干个值。STL 容器是同质的，即存储的值的类型相同。
+**算法**是完成特定任务(例如对数组进行排序或在链表中查找特定值)的处方。
+**迭代器**能够遍历容器的对象，与能够遍历数组的指针类似，是广义的指针。
+**函数对象**是类似于函数的对象，可以是类对象或函数指针(包括函数名，因为函数名也被用作指针)。
+
+程序员使用 STL 能够构造各种容器(包括数组、队列和链表)和执行各种操作(包括搜索、排序和随机排列)。
+
+历史：Alex Stepanov 和 Meng Lee 在 Hewlett-Packard 实验室开发了 STL，并于 1994 年发布其实现。ISO/ANSIC++委员会投票同意将其作为C++标准的组成部分。
+
+STL 不是面向对象的编程，而是一种不同的编程模式 —— 泛型编程。这使得 STL 在功能和方法方面都很有趣。这里会介绍一些有代表性的例子，方便您领会泛型编程方法的精髓。接下来会先演示几个具体的例子，让您能够对容器、迭代器和算法有一些认识，然后再介绍底层设计理念，并简要介绍 STL。
+
+### 模板类 vector
+
+#### vector 基本使用
+
+在 Unit 1 中曾简要地介绍过 vector 类，下面会更详细地介绍它。
+
+首先是 vector 的名称 —— 矢量，它对应计算机的概念中的数组，而不是数学概念上的矢量。计算机矢量存储了一组可随机访问的值，即可以像数组那样使用索引来直接访问矢量的第 10 个元素，而不必先访问前面的第 9 个元素。
+
+> 在数学中，可以用 N 个分量来表示 N 维数学矢量。从这方面来说，数学矢量类似于一个 N 维数组。但数学矢量拥有计算机矢量不具备的其他特性，例如内、外乘积等。
+
+创建 vector 模板对象，可以使用通常的`<type>`表示法来指出要使用的类型。另外，vector 模板使用动态内存分配，因此可以用初始化参数来指出需要多少矢量：
+
+```cpp
+std::vector<int> vi(5); // 创建一个包含 5 个 int 元素的 vector 容器
+
+int n;
+cin >> n;
+vector<double> vd(n); // 创建一个包含 n 个 double 元素的 vector 容器
+```
+
+由于 vector 模板类重载了`[]`运算符，因此创建 vector 对象后，可以使用通常的数组表示法来访问各个元素：
+
+```cpp
+vi[0] = 9;
+for (int i = 0; i < n; ++i) {
+    vd[i] = i * 3.2;
+}
+```
+
+下面的程序是一个要求不高的程序，它使用了 vector 类。该程序创建两个 vector 对象，一个是 int 类型的，另一个是 string 类型的，它们都包含 5 个元素：
+
+```cpp
+const int NUM = 5;
+
+/**
+ * vector 演示小程序
+ **/
+int main() {
+    std::vector<int> vi(NUM);
+    std::vector<std::string> vs(NUM);
+
+    for (int i = 0; i < NUM; ++i) {
+        std::cout << "Please input a int and then input a string:\n";
+        std::cin >> vi[i];
+        std::cin.get();
+        std::getline(std::cin, vs[i]);
+    }
+
+    std::cout << "Thank you.\n\n";
+
+    for (int i = 0; i < NUM; ++i) {
+        std::cout << vi[i] << " " << vs[i] << std::endl;
+    }
+    return 0;
+}
+```
+
+该程序使用 vector 模板只是为了方便创建动态内存分配的数组。
+
+#### 分配器
+
+与 string 类类似，各种 STL 容器模板都接受一个可选的模板参数，该参数指定使用哪个分配器对象来管理内存。
+> 复习：string 类作为 basic_string 的实例化，它使用了一个 _Traits 特征类和一个 _Alloc 分配器。
+
+例如，vector 模板声明的开头与下面类似：
+
+```cpp
+template<typename _Tp, typename _Alloc = std::allocator<_Tp> >
+class vector {};
+```
+
+如果省略该模板参数的值，则容器模板将默认使用`allocator<_Tp>`类。这个类使用 new 和 delete。
+
+#### 迭代器
+
+什么是迭代器？它是一个广义指针。实际上，它可以是指针，也可以是一个可对其执行类似指针的操作。例如，解除引用和指针递增。通过将指针广义化为迭代器，让 STL 能够为不同的容器类(包括那些简单指针无法处理的类)提供统一的接口。每个容器类都定义了一个合适的迭代器，该迭代器的类型是一个名为 iterator 的 typedef，其作用域为整个类。例如，为 double 类型的 vector 声明一个迭代器，可以这样做：
+
+```cpp
+vector<double>::iterator pd; // pd 是迭代器
+```
+
+迭代器可以执行这样的操作：
+
+```cpp
+vector<doubel>::iterator pd;
+vector<double> vd;
+pd = vd.begin();
+*pd = 2.33;
+++pd;
+```
+
+正如您所看到的的，迭代器的行为就像指针。顺便说一句，C++11 还有一个自动类型推断。例如，可以这样做：
+
+```cpp
+auto pd = vd.begin(); // 等价于 vector<double>::iterator pd = vd.begin()
+```
+
+遍历 vector 数组：
+
+```cpp
+for (pd = vd.begin(); pd != vd.end(); ++pd) {
+    // ...
+}
+
+for (std::string st:vs) {
+    // ...
+}
+
+// 头文件 algorithm 中提供的方法
+for_each (vd.begin(), vd.end(), func) {
+    // ...
+}
+```
+
+#### vector 容器提供的方法
+
+除了分配存储空间外，vector 模板还有可以使用那些操作？所有的 STL 容器都提供了一些基本方法：
+- size() —— 返回容器中元素的数目
+- swap() —— 交换两个容器的内容
+- begin() —— 返回一个指向容器中第一个元素的迭代器
+- end() —— 返回一个表示超过容器尾的迭代器
+
+所有容器都包含这些方法。当然 vector 模板类也包含一些只有某些 STL 容器才有的方法。例如：
+- push_back() —— 将元素添加到矢量末尾。它需要负责内存管理，它会增加矢量的长度，确保能够容纳新成员
+- erase() —— 删除矢量中给定区间的元素。它接受两个迭代器参数，这些参数定义了要删除的区间。待删除的区间：第一个迭代器指向区间的起始处，第二个迭代器位于区间终止处的后一个位置(左闭右开)
+- insert() —— 其功能与 erase() 相反。它接受三个迭代器参数：第一个参数指定了新元素插入的位置，第二个和第三个迭代器参数定义了被插入的区间，该区间通常是另一个容器对象的一部分
+
+```cpp
+vector<double> vd; // 创建了一个空容器
+vector<double> vd_new;
+double temp = 3.3;
+
+vd.push_back(temp); // 向容器尾部添加一个 double 元素
+vd.erase(vd.begin(), vd.begin() + 2); // 删除容器的前两个元素
+vd.insert(vd.begin(), vd_new.begin()+1, vd_new.end()); // 将 vd_new 的除首元素之外的所有元素插入到 vd 容器第一个元素前面
+```
+
+区间：如果 it1 和 it2 是迭代器，则 STL 文档会使用 \[it1, it2) 来表示从 it1 到 it2(不包含 it2)的区间。因此，区间`[begin(), end()]`将包括集合的所有内容，而区间`[begin(), begin())`为空。
+
+> 注意`[)`表示法并不是C++的组成部分，因此不能在代码中使用，只能出现在文档中。
+
+![](../picture/basic/10-3.png)
+
+**演示程序**：下面的程序演示了 size()、begin()、end()、push_back()、erase()、insert() 的用法：
+
+```cpp
+/**
+ * 演示 vector 容器的一些方法： size() begin() end() push_back() erase() insert()
+ **/
+struct Book {
+    std::string bookName; // 书名
+    double rating; // 评分
+};
+
+/**
+ * 根据输入填充 Book 信息
+ *  @return True-继续输入信息，False-输入结束
+ **/
+bool fillBook(Book & rb);
+
+/**
+ * 打印传入的 Book 的信息
+ **/
+void showBook(const Book & rb);
+
+int main() {
+    std::vector<Book> books; // 元素类型为 Book 的矢量
+    Book tmp; // 用于保存输入信息的 Book 对象
+    while (fillBook(tmp)) {
+        books.push_back(tmp); // 在 vector 的尾部添加元素
+    }
+    int num = books.size(); // 获取 vector 容器中元素的数目
+    if (num > 0) {
+        std::cout << "Thank you. You entered the following:\n" << "BookName\tBook\n";
+
+        for (int i = 0; i < num; ++i) { // 使用索引访问
+            showBook(books[i]);
+        }
+
+        std::cout << "Using iterator:\n";
+        std::vector<Book>::iterator it;
+        for (it = books.begin(); it != books.end(); it++) { // 使用迭代器访问
+            showBook(*it);
+        }
+
+        // 接下来将对 books 进行一系列增删操作，先保存一个现有的 books 的副本，再进行增删操作。
+        std::vector<Book> oldList(books); // 使用 vector<Book> 的复制构造函数创建了一个 books 的副本
+
+        if (num > 3) {
+            // 删除 books 的 [第二个元素, 第四个元素)
+            books.erase(books.begin()+1, books.begin()+3);
+            std::cout << "After erase:\n"; // 打印删除元素之后的 books
+            for (it = books.begin(); it != books.end(); it++) {
+                showBook(*it);
+            }
+
+            // 向 books 的第一个元素之前添加 oldList 的 [第二个元素, 第三个元素)，即只插入 oldList 的第二个元素
+            books.insert(books.begin(), oldList.begin()+1, oldList.begin()+2);
+            std::cout << "After insert:\n";
+            for (it = books.begin(); it != books.end(); it++) {
+                showBook(*it);
+            }
+        }
+
+        books.swap(oldList); // 交换 books 与 oldList 中的元素
+        std::cout << "Swapping books with oldList:\n";
+        for (it = books.begin(); it != books.end(); it++) {
+            showBook(*it);
+        }
+    } else {
+        std::cout << "Books is null.\n";
+    }
+    return 0;
+}
+
+bool fillBook(Book & rb) {
+    std::cout << "Enter book name(quit to quit): ";
+    std::getline(std::cin, rb.bookName);
+    if ("quit" == rb.bookName)
+        return false;
+    std::cout << "Enter book rating: ";
+    std::cin >> rb.rating;
+    if (!std::cin) // 这里调用的是 cin 的 operator!() 方法，等价于 std::cin.fail()
+        return false;
+    while (std::cin.get() != '\n') // 去掉多余的换行符
+        continue;
+    return true;
+}
+
+void showBook(const Book & rb) {
+    std::cout << rb.bookName << " " << rb.rating << std::endl;
+}
+```
+
+```java
+Enter book name(quit to quit):三体
+Enter book rating:9.5
+Enter book name(quit to quit):1984
+Enter book rating:9.4
+Enter book name(quit
+to quit):四世同堂
+Enter book rating:9.4
+Enter book name(quit to quit):我与地坛
+Enter book rating:9.3
+Enter book name(quit to quit):百年孤独
+Enter book rating:9.3
+Enter book name(quit to quit):quit
+Thank you. You entered the following:
+BookName        Book
+三体 9.5
+1984 9.4
+四世同堂 9.4
+我与地坛 9.3
+百年孤独 9.3
+Using iterator:
+三体 9.5
+1984 9.4
+四世同堂 9.4
+我与地坛 9.3
+百年孤独 9.3
+After erase:
+三体 9.5
+我与地坛 9.3
+百年孤独 9.3
+After insert:
+1984 9.4
+三体 9.5
+我与地坛 9.3
+百年孤独 9.3
+Swapping books with oldList:
+三体 9.5
+1984 9.4
+四世同堂 9.4
+我与地坛 9.3
+百年孤独 9.3
+```
+
+在上面程序将`!std::cin`作为 if 语句的条件，这里是用到了 cin 的重载运算符`operator!`，它相当于`cin.fail()`：
+
+```cpp
+bool operator!() const { return this->fail(); }
+```
+
+#### vector 容器可执行的其他操作
+
+程序员通常还会对数组执行很多操作，如搜索、排序等。vector 模板中包含这些常见操作的方法？答：没有！为什么 vector 模板不定义这些方法呢？因为这些方法并不只适用于 vector，其他容器类也需要这些操作。因此 STL 从更广泛的角度定义了非成员函数来执行这些操作，即不是为某个容器类定义成员函数，而是定义了一个适用于所有容器类的非成员函数。
+这种设计理念省去了大量重复工作。例如，假设有8个容器类，每个容器类需要十种操作。如果每个容器类都定义自己的成员函数，则需要定义`8*10=80`个成员函数。但采用 STL 的方式时，只需要定义 10 个非成员函数来执行查找、排序等操作。
+
+另一方面，即使有执行相同任务的非成员函数，STL 有时也会为某些容器定义一个成员函数。这是因为对于有些操作来说，类特定算法的效率比通用算法高。例如，vector 的成员函数 swap() 效率比非成员函数 swap() 高，但非成员函数的 swap() 能让您交换两个类型不同的容器的内容。
+
+下面介绍三个有代表性的 STL 函数: for_each()、random_shuffle() 和 sort()。
+- for_each()：它可用于任何容器类，接受三个参数。前两个参数是定义容器需要访问的区间，最后一个参数是指向函数的指针。for_each() 函数将被指向的函数应用于指定容器区间中的各种元素。需要注意的是，要求被指向的函数不能修改容器中元素的值。for_each() 函数可以被 for 循环替代。
+- random_shuffle()：它只适用于允许随机访问的容器。它接受两个定义容器区间的迭代器参数，并随机排列该区间中的元素。
+- sort()：它也要求容器支持随机访问。它有两个版本，一个版本是接受两个定义区间的参数，对这个区间中的元素按照`operator<()`的结果按照升序排序；另一个版本接受三个参数，前两个参数依旧定义排序的区间，第三个参数接受一个指向函数的指针，sort() 在排序时将使用该函数来替代`opeartor<()`，返回值为 false 表示两个参数顺序不正确。如果容器的元素类型是自定义的类型，那么使用第一个版本之前，需要先为该自定义类型重载小于运算符`opeartor<()`。
+
+> shuffle 洗牌的意思。
+
+```cpp
+// 等价于 for 循环
+vector<Book>::iterator it;
+for (it = books.begin(); it != books.end(); it++)
+    showBook(*it);
+// for_each 可避免定义显式的迭代器对象
+for_each(books.begin(), books.end(), showBook);
+
+// 将 books 容器中的元素随机排列
+random_shuffle(books.begin(), books.end());
+
+bool operator<(const Book & r1, const Book & r) {
+    if (r1.bookName < r2.bookNmae)
+        return true;
+    else if (r1.bookName == r2.bookNmae && r1.rating < r2.rating)
+        return true;
+    else
+        return false;
+}
+sort(books.begin(), books.end()); // 第一个版本 sort
+
+bool compareBook(const Book & r1, const Book & r2) {
+    return r1.rating < r2.rating;
+}
+sort(books.begin(), books.end(), compareBook);
+```
+
+```cpp
+/**
+ * 演示 vector 容器的一些方法： size() begin() end() push_back() erase() insert()
+ **/
+struct Book {
+    std::string bookName; // 书名
+    double rating; // 评分
+};
+
+/**
+ * 重载 < 运算符
+ **/
+bool operator<(Book & r1, Book & r2);
+
+bool compareBook(Book & r1, Book & r2);
+
+/**
+ * 根据输入填充 Book 信息
+ *  @return True-继续输入信息，False-输入结束
+ **/
+bool fillBook(Book & rb);
+
+/**
+ * 演示 STL 的 for_each()/random_stuffle()/sort()
+ **/
+int main() {
+    std::vector<Book> books;
+    Book temp;
+
+    while(fillBook(temp))
+        books.push_back(temp);
+
+    if (books.size()) {
+        std::cout << "Thank you. You entered the following:\n" << "BookName\tBook\n";
+        std::for_each(books.begin(), books.end(), showBook);
+
+        std::sort(books.begin(), books.end()); // 第一个版本的 sort
+        std::cout << "After sorted by operator<:\n";
+        std::for_each(books.begin(), books.end(), showBook);
+
+        std::sort(books.begin(), books.end(), compareBook);
+        std::cout << "After sorted by compareBook:\n";
+        std::for_each(books.begin(), books.end(), showBook);
+
+        std::random_shuffle(books.begin(), books.end());
+        std::cout << "After sorted by random_stuffle:\n";
+        std::for_each(books.begin(), books.end(), showBook);
+    } else {
+        std::cout << "No books.\n";
+    }
+    return 0;
+}
+
+bool operator<(Book & r1, Book & r2){
+    if (r1.bookName < r2.bookName)
+        return true;
+    else if (r1.bookName == r2.bookName && r1.rating < r2.rating)
+        return true;
+    else
+        return false;
+}
+
+bool compareBook(Book & r1, Book & r2) {
+    return r1.rating < r2.rating;
+}
+
+bool fillBook(Book & rb) {
+    std::cout << "Enter book name(quit to quit): ";
+    std::getline(std::cin, rb.bookName);
+    if ("quit" == rb.bookName)
+        return false;
+    std::cout << "Enter book rating: ";
+    std::cin >> rb.rating;
+    if (!std::cin) // 这里调用的是 cin 的 operator!() 方法，等价于 std::cin.fail()
+        return false;
+    while (std::cin.get() != '\n') // 去掉多余的换行符
+        continue;
+    return true;
+}
+
+void showBook(const Book & rb) {
+    std::cout << rb.bookName << " " << rb.rating << std::endl;
+}
+```
+
+```java
+Enter book name(quit to quit):三体
+Enter book rating:9.5
+Enter book name(quit to quit):活着
+Enter book rating:9.4
+Enter book name(quit to quit):四世同堂
+Enter book rating:4.4
+Enter book name(quit to quit):我与地坛
+Enter book rating:7.9
+Enter book name(quit to quit):百年孤独
+Enter book rating:6.6
+Enter book name(quit to quit):小王子
+Enter book rating:3.3
+Enter book name(quit to quit):quit
+Thank you. You entered the following:
+BookName        Book
+三体 9.5
+活着 9.4
+四世同堂 4.4
+我与地坛 7.9
+百年孤独 6.6
+小王子 3.3
+After sorted by operator<:
+百年孤独 6.6
+活着 9.4
+三体 9.5
+四世同堂 4.4
+我与地坛 7.9
+小王子 3.3
+After sorted by compareBook:
+小王子 3.3
+四世同堂 4.4
+百年孤独 6.6
+我与地坛 7.9
+活着 9.4
+三体 9.5
+After sorted by random_stuffle:
+活着 9.4
+四世同堂 4.4
+我与地坛 7.9
+百年孤独 6.6
+小王子 3.3
+三体 9.5
+```
+
+### 基于范围的 for 循环
+
+```cpp
+for (for_iterator : for_range) {}
+```
+
+基于范围的 for 循环是为用于 STL 而设计的，也可以用于数组。例如：
+
+```cpp
+double d[5] = { 1.1, 20.78, 9.88, 3.4, 44.4};
+for (double t : d)
+    cout << t << endl;
+```
+
+用于遍历 STL 容器时，这种 for 循环中，括号内的代码声明一个类型与容器元素类型相同的变量，然后指出容器的名称。接下来，循环体使用指定的变量依次访问容器的每个元素。例如，对于上面程序中使用 for_each() 的语句可以被替换为基于范围的 for 循环：
+
+```cpp
+for_each(books.begin(), books.end(), showBook);
+// 等价于
+for(Book b : books)
+    showBook(b);
+// 利用 C++11 的 auto
+for(auto b : books)
+    showBook(b);
+```
+
+与 for_each() 不同的是，基于范围的 for 循环可以修改容器的内容，方法是将调用的函数的参数设置为引用参数：
+
+```cpp
+void tempFunc(Book & rb) { rb.rating++; }
+for (auto b : books)
+    tempFunc(b);
+```
+
+## 泛型编程
+
+有了一些 STL 的使用经验后，我们再来看看它的底层理念 —— 泛型编程。
+
+面向对象编程关注的是编程的数据方面，而泛型编程关注的则是算法。它们之间的共同点是抽象和创建可重用代码，但它们的理念大不相同。
+
+泛型编程旨在编写独立于数据类型的代码。

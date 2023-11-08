@@ -3,4 +3,6 @@
 
 CMakeFiles/STL.dir/Unit10/main.cpp.obj: \
  ../Unit10/main.cpp \
- ../Unit10/smart_ptr.h
+ ../Unit10/smart_ptr.h \
+ ../Unit10/string.h \
+ ../Unit10/vector.h

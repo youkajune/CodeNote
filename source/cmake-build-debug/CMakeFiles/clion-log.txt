@@ -1,4 +1,0 @@
-E:\IDE\CLion\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" "E:\Note\Code Language\the-cpp\source"
--- Configuring done
--- Generating done
--- Build files have been written to: E:/Note/Code Language/the-cpp/source/cmake-build-debug

@@ -88,6 +88,7 @@ all: CMakeFiles/Extends.dir/all
 all: CMakeFiles/FriendClass.dir/all
 all: CMakeFiles/NoException.dir/all
 all: CMakeFiles/Theory.dir/all
+all: CMakeFiles/IO.dir/all
 all: CMakeFiles/ExceptionSTDClass.dir/all
 all: CMakeFiles/RTTI.dir/all
 all: CMakeFiles/STL.dir/all
@@ -124,6 +125,7 @@ clean: CMakeFiles/Extends.dir/clean
 clean: CMakeFiles/FriendClass.dir/clean
 clean: CMakeFiles/NoException.dir/clean
 clean: CMakeFiles/Theory.dir/clean
+clean: CMakeFiles/IO.dir/clean
 clean: CMakeFiles/ExceptionSTDClass.dir/clean
 clean: CMakeFiles/RTTI.dir/clean
 clean: CMakeFiles/STL.dir/clean
@@ -188,7 +190,7 @@ CMakeFiles/DynamicMemory.dir/clean:
 CMakeFiles/Link.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Link.dir\build.make CMakeFiles/Link.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Link.dir\build.make CMakeFiles/Link.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" --progress-num=52,53,54 "Built target Link"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" --progress-num=54,55,56 "Built target Link"
 .PHONY : CMakeFiles/Link.dir/all
 
 # Build rule for subdir invocation for target.
@@ -500,7 +502,7 @@ CMakeFiles/CodeReuse.dir/clean:
 CMakeFiles/Output.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Output.dir\build.make CMakeFiles/Output.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Output.dir\build.make CMakeFiles/Output.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" --progress-num=63,64,65,66 "Built target Output"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" --progress-num=65,66,67,68 "Built target Output"
 .PHONY : CMakeFiles/Output.dir/all
 
 # Build rule for subdir invocation for target.
@@ -526,7 +528,7 @@ CMakeFiles/Output.dir/clean:
 CMakeFiles/Operator1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Operator1.dir\build.make CMakeFiles/Operator1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Operator1.dir\build.make CMakeFiles/Operator1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" --progress-num=57,58,59 "Built target Operator1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" --progress-num=59,60,61 "Built target Operator1"
 .PHONY : CMakeFiles/Operator1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -552,7 +554,7 @@ CMakeFiles/Operator1.dir/clean:
 CMakeFiles/Operator2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Operator2.dir\build.make CMakeFiles/Operator2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Operator2.dir\build.make CMakeFiles/Operator2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" --progress-num=60,61,62 "Built target Operator2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" --progress-num=62,63,64 "Built target Operator2"
 .PHONY : CMakeFiles/Operator2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -604,7 +606,7 @@ CMakeFiles/Friend.dir/clean:
 CMakeFiles/TypeConversion.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TypeConversion.dir\build.make CMakeFiles/TypeConversion.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TypeConversion.dir\build.make CMakeFiles/TypeConversion.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" --progress-num=75,76,77 "Built target TypeConversion"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" --progress-num=77,78,79 "Built target TypeConversion"
 .PHONY : CMakeFiles/TypeConversion.dir/all
 
 # Build rule for subdir invocation for target.
@@ -630,7 +632,7 @@ CMakeFiles/TypeConversion.dir/clean:
 CMakeFiles/PositionNew.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PositionNew.dir\build.make CMakeFiles/PositionNew.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PositionNew.dir\build.make CMakeFiles/PositionNew.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" --progress-num=67,68 "Built target PositionNew"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" --progress-num=69,70 "Built target PositionNew"
 .PHONY : CMakeFiles/PositionNew.dir/all
 
 # Build rule for subdir invocation for target.
@@ -760,7 +762,7 @@ CMakeFiles/FriendClass.dir/clean:
 CMakeFiles/NoException.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NoException.dir\build.make CMakeFiles/NoException.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NoException.dir\build.make CMakeFiles/NoException.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" --progress-num=55,56 "Built target NoException"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" --progress-num=57,58 "Built target NoException"
 .PHONY : CMakeFiles/NoException.dir/all
 
 # Build rule for subdir invocation for target.
@@ -786,7 +788,7 @@ CMakeFiles/NoException.dir/clean:
 CMakeFiles/Theory.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Theory.dir\build.make CMakeFiles/Theory.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Theory.dir\build.make CMakeFiles/Theory.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" --progress-num=73,74 "Built target Theory"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" --progress-num=75,76 "Built target Theory"
 .PHONY : CMakeFiles/Theory.dir/all
 
 # Build rule for subdir invocation for target.
@@ -804,6 +806,32 @@ Theory: CMakeFiles/Theory.dir/rule
 CMakeFiles/Theory.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Theory.dir\build.make CMakeFiles/Theory.dir/clean
 .PHONY : CMakeFiles/Theory.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/IO.dir
+
+# All Build rule for target.
+CMakeFiles/IO.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IO.dir\build.make CMakeFiles/IO.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IO.dir\build.make CMakeFiles/IO.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" --progress-num=52,53 "Built target IO"
+.PHONY : CMakeFiles/IO.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/IO.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/IO.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/IO.dir/rule
+
+# Convenience name for target.
+IO: CMakeFiles/IO.dir/rule
+.PHONY : IO
+
+# clean rule for target.
+CMakeFiles/IO.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IO.dir\build.make CMakeFiles/IO.dir/clean
+.PHONY : CMakeFiles/IO.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ExceptionSTDClass.dir
@@ -838,7 +866,7 @@ CMakeFiles/ExceptionSTDClass.dir/clean:
 CMakeFiles/RTTI.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RTTI.dir\build.make CMakeFiles/RTTI.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RTTI.dir\build.make CMakeFiles/RTTI.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" --progress-num=69,70 "Built target RTTI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" --progress-num=71,72 "Built target RTTI"
 .PHONY : CMakeFiles/RTTI.dir/all
 
 # Build rule for subdir invocation for target.
@@ -864,7 +892,7 @@ CMakeFiles/RTTI.dir/clean:
 CMakeFiles/STL.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL.dir\build.make CMakeFiles/STL.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL.dir\build.make CMakeFiles/STL.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" --progress-num=71,72 "Built target STL"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" --progress-num=73,74 "Built target STL"
 .PHONY : CMakeFiles/STL.dir/all
 
 # Build rule for subdir invocation for target.

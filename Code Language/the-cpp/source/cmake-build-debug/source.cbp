@@ -1129,6 +1129,48 @@
 					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="IO">
+				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/IO.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 IO"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="IO/fast">
+				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/IO.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 IO/fast"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="ExceptionSTDClass">
 				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/ExceptionSTDClass.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
@@ -1276,6 +1318,9 @@
 		</Unit>
 		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit10/smart_ptr.h">
 			<Option target="STL"/>
+		</Unit>
+		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit11/main.cpp">
+			<Option target="IO"/>
 		</Unit>
 		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit2/Class Flexible Demo/complex_c.c">
 			<Option target="C_Customization"/>

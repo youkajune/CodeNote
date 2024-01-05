@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Note/Note/Code Language/the-cpp/source/Unit11/FileCount.h
+fstream
+-
+
+E:/Note/Note/Code Language/the-cpp/source/Unit11/FileMode.h
+
+E:/Note/Note/Code Language/the-cpp/source/Unit11/FileRandomIO.h
+iomanip
+-
+
+E:/Note/Note/Code Language/the-cpp/source/Unit11/fileIO.h
+fstream
+-
+
+E:/Note/Note/Code Language/the-cpp/source/Unit11/format.h
+iostream
+-
+
+E:/Note/Note/Code Language/the-cpp/source/Unit11/main.cpp
+format.h
+E:/Note/Note/Code Language/the-cpp/source/Unit11/format.h
+fileIO.h
+E:/Note/Note/Code Language/the-cpp/source/Unit11/fileIO.h
+FileCount.h
+E:/Note/Note/Code Language/the-cpp/source/Unit11/FileCount.h
+FileMode.h
+E:/Note/Note/Code Language/the-cpp/source/Unit11/FileMode.h
+FileRandomIO.h
+E:/Note/Note/Code Language/the-cpp/source/Unit11/FileRandomIO.h
+

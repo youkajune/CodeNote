@@ -43,7 +43,8 @@
 						26,
 						27,
 						28,
-						29
+						29,
+						30
 					]
 				}
 			],
@@ -87,7 +88,8 @@
 						26,
 						27,
 						28,
-						29
+						29,
+						30
 					]
 				}
 			],
@@ -133,6 +135,13 @@
 					"id" : "C_Struct2::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-C_Struct2-Debug-54ef6a98b088ba366cec.json",
 					"name" : "C_Struct2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Character::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Character-Debug-81ccbead46dc2ab51be7.json",
+					"name" : "Character",
 					"projectIndex" : 0
 				},
 				{

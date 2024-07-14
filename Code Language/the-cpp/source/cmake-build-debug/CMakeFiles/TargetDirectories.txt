@@ -30,3 +30,4 @@ E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/CMakeFiles/IO.dir
 E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/CMakeFiles/ExceptionSTDClass.dir
 E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/CMakeFiles/RTTI.dir
 E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/CMakeFiles/STL.dir
+E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/CMakeFiles/Character.dir

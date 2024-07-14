@@ -81,4 +81,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ExceptionSTDClass.dir/DependInfo.cmake"
   "CMakeFiles/RTTI.dir/DependInfo.cmake"
   "CMakeFiles/STL.dir/DependInfo.cmake"
+  "CMakeFiles/Character.dir/DependInfo.cmake"
   )

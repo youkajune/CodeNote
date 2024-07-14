@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Note/Note/Code Language/the-cpp/source/Unit12/Lambda.h
+functional
+-
+algorithm
+-
+cmath
+-
+
+E:/Note/Note/Code Language/the-cpp/source/Unit12/initializer_list_test.h
+
+E:/Note/Note/Code Language/the-cpp/source/Unit12/main.cpp
+iostream
+-
+initializer_list_test.h
+E:/Note/Note/Code Language/the-cpp/source/Unit12/initializer_list_test.h
+move_semantics.h
+E:/Note/Note/Code Language/the-cpp/source/Unit12/move_semantics.h
+Lambda.h
+E:/Note/Note/Code Language/the-cpp/source/Unit12/Lambda.h
+
+E:/Note/Note/Code Language/the-cpp/source/Unit12/move_semantics.h
+vector
+-
+algorithm
+-
+

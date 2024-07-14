@@ -46,3 +46,5 @@ add_executable(RTTI Unit9/RTTI.h Unit9/main.cpp)
 add_executable(STL Unit10/smart_ptr.h Unit10/main.cpp)
 
 add_executable(IO Unit11/main.cpp)
+
+add_executable(Character Unit12/main.cpp)

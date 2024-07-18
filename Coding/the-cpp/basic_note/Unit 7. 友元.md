@@ -266,7 +266,7 @@ inline bool RemoteM::volUp(TvM &t) { return t.volUp(); }
 
 ### 友元类与友元成员函数的区别
 
-![](../picture/basic/7-1.png)
+![](../../../.imgs/Coding/the-cpp/basic_note/7-1.png)
 
 ### 其他友元关系
 

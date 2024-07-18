@@ -90,7 +90,7 @@ if (ps = dynamic_casst<Superb *> (pg)) {
 }
 ```
 
-![](../../cplusplus-note/picture/basic/9-1.png)
+![](../../../.imgs/Coding/the-cpp/basic_note/9-1.png)
 
 程序代码：
 

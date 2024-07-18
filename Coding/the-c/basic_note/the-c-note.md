@@ -24,7 +24,7 @@ C语言主要应用于底层开发，和硬件打交道，如操作系统，嵌�
 **硬件和软件**：
 计算机硬件是指现实中存在的，能够看得见摸得着的计算机部件。例如，CPU、主板等。
 计算机软件则是在现实中并不存在，摸不到的。例如，QQ、WX这些都是软件，甚至运行这些软件的操作系统也是软件。而软件都是由编程语言来编写的。
-![](E:\Note\Code Language\the-c\picture\basic\1-1.png)
+![](../../../.imgs/Coding/the-c/basic_note/1-1.png)
 C语言的主要应用就是编写内核这一层，负责和硬件直接打交道；而C++、Java(另两种主流编程语言)则主要应用于外层的应用这一层，我们常用的各种电脑软件都是属于应用这一层。
 
 ## C语言的历史
@@ -232,7 +232,7 @@ C语言中一般使用 #define 来定义常量，不过后来也引入了 C++ �
 
 ## 类型
 
-![](E:\Note\Code Language\the-c\picture\basic\2-1.png)
+![](../../../.imgs/Coding/the-c/basic_note/2-1.png)
 
 C 语言的数据类型包括基本数据类型、构造类型、指针类型、空类型这四大类，这里我们先只介绍第一类数据类型 —— 基本数据类型。基本数据类型是 C 语言内置的数据类型。
 
@@ -425,9 +425,9 @@ a=17, b=5.500000, c=A
 
 printf() 可以对输出进行格式化控制。例如，可以控制浮点数小数点后的位数等。
 
-![](E:\Note\Code Language\the-c\picture\basic\2-2.png)
+![](../../../.imgs/Coding/the-c/basic_note/2-2.png)
 
-![](E:\Note\Code Language\the-c\picture\basic\2-3.png)
+![](../../../.imgs/Coding/the-c/basic_note/2-3.png)
 
 `数字` 表示最小字段宽度。如果需要打印的数据宽度小于该数字，那么在前面自动补空格；如果需要打印的数据宽度大于等于该数字，正常打印。默认是右对齐的，搭配 - 表示左对齐。搭配 0 表示不足补 0，而不是空格。
 
@@ -481,7 +481,7 @@ int k = 336;
 printf("%c\n",k);
 ```
 
-![](E:\Note\Code Language\the-c\picture\basic\2-4.png)
+![](../../../.imgs/Coding/the-c/basic_note/2-4.png)
 
 ```c
 // 转换说明不匹配示例3
@@ -507,7 +507,7 @@ printf("%ld %ld %ld %ld\n", n1, n2, n3, n4);
 如果printf()语句有其他不匹配的地方，即使用对了转换说明也会生成虚假的结果。用%ld转换说明打印浮点数会失败，但是在这里，用 %ld 打印 long 类型的数竟然也失败了！
 **解释**：该调用告诉计算机把变量n1、n2、、n3和n4的值传递给程序。这是一种常见的参数传递方式。程序把传入的值放入被称为栈（stack）的内存区域。 计算机根据变量类型（不是根据转换说明）把这些值放入栈中。因此，n1被储存在栈中，占8字节（float类型被转换成double类型）。同样，n2也在栈中占8字节，而n3和n4在栈中分别占4字节。然后，控制转到printf()函数。该函数根据转换说明（不是根据变量类型）从栈中读取值。%ld转换说明表明 printf()应该读取4字节，所以printf()读取栈中的前4字节作为第1个值。这是 n1的前半部分，将被解释成一个long类型的整数。根据下一个%ld转换说 明，printf()再读取4字节，这是n1的后半部分，将被解释成第2个long类型的 整数（见图4.9）。类似地，根据第3个和第4个%ld，printf()读取n2的前半部分和后半部分，并解释成两个long类型的整数。因此，对于n3和n4，虽然用对了转换说明，但printf()还是读错了字节。
 
-![](E:\Note\Code Language\the-c\picture\basic\2-5.png)
+![](../../../.imgs/Coding/the-c/basic_note/2-5.png)
 
 #### printf() 的返回值
 
@@ -644,7 +644,7 @@ lliikkee aa #
 **无缓冲输入：** 像用户输入的字符后立即重复打印该字符是属于无缓冲输入，即正在等待的程序可立即使用输入的字符。
 **缓冲输入：** 对于该例，大部分系统在用户按下 Enter 键之前不会重复打印刚输入的字符，这种输入形式属于缓冲输入。用户输入的字符被收集并储存在一个被称为缓冲区（buffer）的临时存储区，按下Enter键后，程序才可使用用户输入的字符。
 
-![](E:\Note\Code Language\the-c\picture\basic\2-6.jpg)
+![](../../../.imgs/Coding/the-c/basic_note/2-6.jpg)
 
 **Q：为什么要有缓冲区？**
 **A：1. 将若干字符作为一个块进行传输比逐个发送这些字符节约时间；2. 如果用户打错字符，可以直接通过键盘输入修正错误，当按下 Enter 键时，传输的时正确的输入。**
@@ -697,11 +697,11 @@ char name[40];
 
 name 后面的方括号表明这是一个数组，方括号中的 40 表明该数组中的元素数量。char 表明每个元素的类型。
 
-![](E:\Note\Code Language\the-c\picture\basic\2-7.jpg)
+![](../../../.imgs/Coding/the-c/basic_note/2-7.jpg)
 
 了解了什么是数组之后，我们再来看字符串。字符串中的字符被储存在相邻的存储单元中，每个单元储存一个字符。
 
-![](E:\Note\Code Language\the-c\picture\basic\2-8.jpg)
+![](../../../.imgs/Coding/the-c/basic_note/2-8.jpg)
 
 注意上图中数组末尾位置的字符 \0。这是空字符（null character），C 语言用它标记字符串的结束。空字符不是数字 0！它是非打印字符，其 ASCII 码值是（或等价于）0。C 中的字符串一定以空字符结束，这意味着数组的容量必须至少比待存储字符串中的字符数多1。因此，前面定义的 name 中有 40 个存储单元的字符串，只能储存 39 个字符，剩下一个字节留给空字符。
 
@@ -717,7 +717,7 @@ char name2[6] = {'y', 'o', 'u', 'k', 'a', '\0'};
 
 如上所示，name1 是字符数组，因为它不是以空字符 \0 结尾，而 name2 是字符串。
 
-![](E:\Note\Code Language\the-c\picture\basic\2-9.png)
+![](../../../.imgs/Coding/the-c/basic_note/2-9.png)
 
 **小结：字符串是特殊的字符数组，字符数组不一定是字符串。**
 
@@ -857,7 +857,7 @@ printf("c=%d, d=%d\n", c, d);// 输出 c=1, d=-1
 
 C 是在美国用标准美式键盘开发的语言。但是在世界各地，并非所有的 键盘都有和美式键盘一样的符号。因此，C99标准新增了可代替逻辑运算符 的拼写，它们被定义在ios646.h头文件中。如果在程序中包含该头文件，便可用and代替&&、or代替||、not代替!。
 
-![img](E:\Note\Code Language\the-c\picture\basic\3-1.jpg)
+![img](../../../.imgs/Coding/the-c/basic_note/3-1.jpg)
 
 ### 三元运算符
 
@@ -980,7 +980,7 @@ C 表达式的一个最重要的特性是，每个表达式都有一个值。要
 
 ### if 语句
 
-![](E:\Note\Code Language\the-c\picture\basic\3-2.png)
+![](../../../.imgs/Coding/the-c/basic_note/3-2.png)
 
 例如，下面是输入一个整数，输出其绝对值的程序：
 
@@ -1012,7 +1012,7 @@ if 语句被称为分支语句（branching statement）、选择语句（selecti
 statement 部分可以是一条简单语句，如本例所示，或者是一条用花括号括起来的复合语句（或块）：
 
 ```c
-![3-3](E:\Note\Code Language\the-c\picture\basic\3-3.png)if (score > big) 
+![3-3](../../../.imgs/Coding/the-c/basic_note/3-3.png)if (score > big) 
     printf("Jackpot!\n"); 
 // 简单语句 
 if (joe > ron) 
@@ -1029,7 +1029,7 @@ if (joe > ron)
 
 简单形式的 if 语句可以让程序选择执行一条语句，或者跳过这条语句。 C 还提供了 if else 形式，可以在两条语句之间作选择。
 
-![](E:\Note\Code Language\the-c\picture\basic\3-3.png)
+![](../../../.imgs/Coding/the-c/basic_note/3-3.png)
 
 例如，下面的程序表示变量 x 的值大于 3，则将 x 变为原来的两倍，否则，x 的值 +3。
 
@@ -1138,9 +1138,9 @@ else 与 if 的**配对规则**是，如果没有花括号，else 与离它最�
 
 > 快速记忆：else 和 if 的配对遵循就近原则。
 
-![](E:\Note\Code Language\the-c\picture\basic\3-4.png)
+![](../../../.imgs/Coding/the-c/basic_note/3-4.png)
 
-![](E:\Note\Code Language\the-c\picture\basic\3-5.png)
+![](../../../.imgs/Coding/the-c/basic_note/3-5.png)
 
 注意：要缩进“语句”，“语句”可以是一条简单语句或复合语句，缩进的语句更便于阅读。因此前面例子的缩进应该是这样的：
 
@@ -1303,9 +1303,9 @@ Bye!
 
 如上所示，执行了从 case 'd': 到 switch 语句末尾的所有语句。
 
-![](E:\Note\Code Language\the-c\picture\basic\3-6.png)
+![](../../../.imgs/Coding/the-c/basic_note/3-6.png)
 
-![](E:\Note\Code Language\the-c\picture\basic\3-7.png)
+![](../../../.imgs/Coding/the-c/basic_note/3-7.png)
 
 顺带一提，break 语句可用于循环和 switch 语句中，但是 continue 只能用于循环中。尽管如此，如果 switch 语句在一个循环中，continue 便可作为 switch 语句的一部分。这种情况下，就像在其他循环中一样，continue 让程序跳出循环的剩余部分，包括 switch 语句的其他部分。break 和 continue 在循环中的作用区别见下一节循环结构。
 
@@ -1567,7 +1567,7 @@ for(初始化语句;循环条件表达式;表达式更新)
 
 for 圆括号中的表达式也叫做控制表达式，它们都是完整表达式，所以每个表达式的副作用(如，递增变量)都发生在对下一个表达式求值之前。
 
-![](E:\Note\Code Language\the-c\picture\basic\3-8.png)
+![](../../../.imgs/Coding/the-c/basic_note/3-8.png)
 
 对于计数循环，for 循环的第一行包括了循环所需的所有信息：初始值，终值，每次循环的增量。
 
@@ -1641,7 +1641,7 @@ do
 while ( expression );
 ```
 
-![](E:\Note\Code Language\the-c\picture\basic\3-9.png)
+![](../../../.imgs/Coding/the-c/basic_note/3-9.png)
 
 ### 如何选择循环
 
@@ -2102,7 +2102,7 @@ void binary(int a)
 
 我们再来举一个典型的例子，斐波那契数列。斐波那契数列的定义如下：第1 个数字和第 2 个数字都是 1，而后续的每个数字都是其前两个数字之和。例如，该数列的前几个数是：1、1、2、3、5、8、13。用数学上的数列来描述的话就是：
 
-![img](E:\Note\Code Language\the-c\picture\basic\4-4.svg)
+![img](../../../.imgs/Coding/the-c/basic_note/4-4.svg)
 
 首先，我们来看看递归的实现。递归提供一个简单的定义。如果把函数命名为 Fibonacci()，那么如果 n 是 1 或 2， Fibonacci(n) 应返回 1，对于其他数值，则应返回 Fibonacci(n-1) + Fibonacci(n-2)。代码如下：
 
@@ -2575,7 +2575,7 @@ float rain[5][12];
 
 这里对于二维数组，我们往往会采用数学上的行和列来描述，行指的是第一个[]，列指的是第二个[]。这也是因为用二维视图有助于理解二维数组的两个下标。
 
-![](E:\Note\Code Language\the-c\picture\basic\5-2.png)
+![](../../../.imgs/Coding/the-c/basic_note/5-2.png)
 
 #### 二维数组初始化
 
@@ -2607,7 +2607,7 @@ int arr1[3][4] = {{1, 1, 2, 3}, {2, 4, 5, 3}, {3, 4, 5, 2}};
 
 这两种初始化的区别：
 
-![](E:\Note\Code Language\the-c\picture\basic\5-3.png)
+![](../../../.imgs/Coding/the-c/basic_note/5-3.png)
 
 #### 二维数组的使用
 
@@ -2699,7 +2699,7 @@ int* q = &a; // q 是指向 int 类型的指针
 
 类型说明符表明了指针所指向对象的类型，星号（*）表明声明的变量是一个指针。
 
-![](E:\Note\Code Language\the-c\picture\basic\5-4.png)
+![](../../../.imgs/Coding/the-c/basic_note/5-4.png)
 
 #### 地址运算符
 
@@ -2810,7 +2810,7 @@ int (*p)[5];
 
 了解了指针数组和数组指针的概念，下面我们来学习如何声明指针数组和数组指针。在指针数组和数组指针这里最重要的一个知识点是 \* 和 [] 运算符的优先级。
 
-![](E:\Note\Code Language\the-c\picture\basic\5-5.png)
+![](../../../.imgs/Coding/the-c/basic_note/5-5.png)
 
 可以看到，\* 运算符优先级低于 [] 运算符。
 
@@ -2984,9 +2984,9 @@ zippo[2][1] = 3
 
 要特别注意，与 zippo\[2]\[1] 等价的指针表示法是 \*(\*(zippo+2) + 1)。看上去比较复杂，应最好能理解。下面列出了理解该表达式的思路：
 
-![](E:\Note\Code Language\the-c\picture\basic\5-6.png)
+![](../../../.imgs/Coding/the-c/basic_note/5-6.png)
 
-![](E:\Note\Code Language\the-c\picture\basic\5-7.png)
+![](../../../.imgs/Coding/the-c/basic_note/5-7.png)
 
 #### 指向二维数组的指针
 
@@ -3077,7 +3077,7 @@ int sum4d(int ar[][12][20][30], int rows);
 
 我们的系统中，地址按字节编址。在 C 中，指针加 1 指的是增加一个存储单元。对数组而言，这意味着把加 1 后的地址是下一个元素的地址，而不是下一个字节的地址。这是为什么必须声明指针所指向对象类型的原因之一。只知道地址不够，因为计算机要知道储存对象需要多少字节。
 
-![](E:\Note\Code Language\the-c\picture\basic\5-8.png)
+![](../../../.imgs/Coding/the-c/basic_note/5-8.png)
 
 
 **区别**：指针是变量，而数组名是常量。
@@ -3204,7 +3204,7 @@ int swap(int *x, int *y)
 }
 ```
 
-![](E:\Note\Code Language\the-c\picture\basic\5-10.png)
+![](../../../.imgs/Coding/the-c/basic_note/5-10.png)
 
 整型变量 a 的地址是 0x61FE1C，整型变量 b 的地址是 0x61FE18。
 
@@ -3943,7 +3943,7 @@ const char m2[40] = "Limit yourself to one line's worth.";
 3. 由之前数组知识可以知道 **数组的大小 >= 字符数量**，因为字符串是空字符结尾的字符数组，因此对于有 35 个字符(包括空格)的`Limit yourself to one line's worth.`来说，存储它的字符数组大小至少是 36(因为还有一个空字符)。
 4. 如果**字符数组的大小大于字符串长度+1**(字符串字符+空字符)，剩余的位置上都会被自动初始化为空字符 \0
 
-![](E:\Note\Code Language\the-c\picture\basic\5-11.png)
+![](../../../.imgs/Coding/the-c/basic_note/5-11.png)
 
 
 
@@ -4154,9 +4154,9 @@ sprintf(formal, "%s, %-5s: $%6.2f\n", last, first, prize);
 
 C 有一系列专门处理字符的函数，ctype.h 头文件包含了这些函数的原型。这些函数接受一个字符作为参数，如果该字符属于某特殊的类别，就返回一个非零值（真）；否则，返回0（假）。
 
-![](E:\Note\Code Language\the-c\picture\basic\5-12.png)
+![](../../../.imgs/Coding/the-c/basic_note/5-12.png)
 
-![](E:\Note\Code Language\the-c\picture\basic\5-13.png)
+![](../../../.imgs/Coding/the-c/basic_note/5-13.png)
 
 ## 结构体、联合、枚举
 
@@ -4207,7 +4207,7 @@ struct book library;
 
 这行代码表明，用 book 结构来为 library 变量分配空间，包括了一个还有 100 个元素的 char 数组，一个包含 80 个元素的 char 数组，和一个 float 类型的变量。
 
-![](E:\Note\Code Language\the-c\picture\basic\5-14.png)
+![](../../../.imgs/Coding/the-c/basic_note/5-14.png)
 
 在结构变量 library 的声明中，`struct book` 的作用相当于 `int` 或者 `float` 。和基本类型变量的声明一样，可以定义多个结构变量，甚至是结构指针。
 
@@ -4714,7 +4714,7 @@ int main()
 }
 ```
 
-![](E:\Note\Code Language\the-c\picture\basic\5-15.png)
+![](../../../.imgs/Coding/the-c/basic_note/5-15.png)
 
 ### 枚举
 
@@ -5524,7 +5524,7 @@ UNIX 用同一种文件格式处理文本文件和二进制文件的内容。不
 
 为了规范文本文件的处理，C 提供两种访问文件的途径：二进制模式和文本模式。在二进制模式中，程序可以访问文件的每个字节。而在文本模式中，程序所见的内容和文件的实际内容不同。程序以文本模式读取文件时，把本地环境表示的行末尾或文件结尾映射为 C 模式。例如，C 程序在旧式 Macintosh 中以文本模式读取文件时，把文件中的 \r 转换成 \n；以文本模式写入文件时，把 \n 转换成 \r。或者，C 文本模式程序在 MS-DOS 平台读取文件时，把 \r\n 转换成 \n；写入文件时，把 \n 转换成 \r\n。在其他环境中编写的文本模式程序也会做类似的转换。
 
-![](E:\Note\Code Language\the-c\picture\basic\7-1.png)
+![](../../../.imgs/Coding/the-c/basic_note/7-1.png)
 
 ### IO 的级别
 
@@ -5552,7 +5552,7 @@ FILE* fopen(const char *filename, const char *mode)
 
 该函数声明在 <stdio.h> 中。它的第 1 个参数是待打开文件的名称，更确切地说是一个包含该文件名的字符串地址。第 2 个参数是一个字符串，指定待打开文件的模式。**该函数的作用是使用给定的模式 mode 打开 文件名为 filename 的文件**。下面的图表列出了 C 库提供的一些模式：
 
-![](E:\Note\Code Language\the-c\picture\basic\7-2.png)
+![](../../../.imgs/Coding/the-c/basic_note/7-2.png)
 
 r 代表 read，w 代表 write，a 代表 append，b 代表 binary，+ 表示读写。
 
@@ -5616,7 +5616,7 @@ if (fclose(fp) != 0)
 
 stdio.h 头文件把3个文件指针与3个标准文件相关联，C 程序会自动打开这3个标准文件：
 
-![](E:\Note\Code Language\the-c\picture\basic\7-3.png)
+![](../../../.imgs/Coding/the-c/basic_note/7-3.png)
 
 这些文件指针都是指向 FILE 的指针，所以它们可用作标准 I/O 函数的参数，如 fclose(fp) 中的 fp。
 
@@ -6117,7 +6117,7 @@ int main()
 
 所谓掩码指的是一些设置为开(1)或者关(0)的位组合。我们先看一下通过 & 把一个量与掩码结合后会如何。例如，假设定义一个符号常量 MASK 为 2 (即， 0000 0010)。那么，flags = flags & MASK 会将 flags 中除 1 号位之外的所有位都设置为 0。
 
-![](E:\Note\Code Language\the-c\picture\basic\8-1.png)
+![](../../../.imgs/Coding/the-c/basic_note/8-1.png)
 
 所以掩码和 & 运算符结合就是将 flags 对应掩码为0的位掩埋起来(设置位0)，因为我们不需要这些位的值，只关注掩码中值为1的位。
 
@@ -6416,7 +6416,7 @@ int main()
 
 前面介绍了明示常量(宏定义)，其实宏定义除了定义常量之外还可以定义宏函数。在 #define 中使用参数可以创建外形和作用与函数类似的类函数宏。带有参数的宏看上去很像函数，因为这样的宏也使用圆括号。类函数宏定义的圆括号中可以有一个或多个参数，随后这些参数出现在替换体中。
 
-![](E:\Note\Code Language\the-c\picture\basic\8-2.png)
+![](../../../.imgs/Coding/the-c/basic_note/8-2.png)
 
 ```c
 // 例4. 
@@ -6724,7 +6724,7 @@ extern int status; // 在头文件中
 
 #### 预定义宏
 
-![](E:\Note\Code Language\the-c\picture\basic\8-3.png)
+![](../../../.imgs/Coding/the-c/basic_note/8-3.png)
 
 #### #line 和 #error
 

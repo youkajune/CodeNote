@@ -20,7 +20,7 @@ string 类时由头文件 string 支持的。要使用类，关键在于知道�
 
 首先，我们来看看 string 类的构造函数。毕竟，对于类而言，最重要的内容之一就是看有哪些方法可用于创建其对象。下面的表格简要的描述了 string 类的 7+2(C++11新增了两个)个构造函数。
 
-![](../picture/basic/10-1.png)
+![](../../../.imgs/Coding/the-cpp/basic_note/10-1.png)
 
 size_type 是一个依赖于实现的整型，它是在头文件 string 中定义的。string 类将 string:npos 定义为字符串的最大长度，通常为 unsigned int 的最大值。另外表格中使用缩写 NBTS(Null-Terminated String)来表示以空字符结束的字符串 —— 传统的C字符串。
 
@@ -731,7 +731,7 @@ auto_ptr、unique_str 和 shared_ptr 这三个智能指针都定义了类似指�
 下图说明了 auto_ptr 智能指针和常规指针在行为方面的差异：
 > unique_str 和 shared_ptr 的行为与 auto_ptr 相同。
 
-![](../picture/basic/10-2.png)
+![](../../../.imgs/Coding/the-cpp/basic_note/10-2.png)
 
 要创建智能指针对象，必须包含头文件 memory，然后使用通常的模板语法来实例化所需类型的指针。
 
@@ -1193,7 +1193,7 @@ vd.insert(vd.begin(), vd_new.begin()+1, vd_new.end()); // 将 vd_new 的除首�
 
 > 注意`[)`表示法并不是C++的组成部分，因此不能在代码中使用，只能出现在文档中。
 
-![](../picture/basic/10-3.png)
+![](../../../.imgs/Coding/the-cpp/basic_note/10-3.png)
 
 **演示程序**：下面的程序演示了 size()、begin()、end()、push_back()、erase()、insert() 的用法：
 
@@ -1703,13 +1703,13 @@ STL 定义了五种迭代器，并根据所需的迭代器类型对算法进行�
 
 随机访问迭代器具有双向迭代器的所有特性，同时添加了支持随机访问的操作(如指针增加运算)和用于对元素进行排序的关系运算符。下图列出了除双向迭代器的操作之外，随机访问迭代器还支持的操作：
 
-![](../picture/basic/10-4.png)
+![](../../../.imgs/Coding/the-cpp/basic_note/10-4.png)
 
 ### 迭代器层次结构
 
 您可能已经注意到，迭代器类型形成了一个层次结构：正向迭代器具有输入和输出迭代器的全部功能，同时还有自己的功能；双向迭代器具有正向迭代器的全部功能，同时还有自己的功能；随机访问迭代器具有正向迭代器的全部功能，同时还有自己的功能。
 
-![](../picture/basic/10-5.png)
+![](../../../.imgs/Coding/the-cpp/basic_note/10-5.png)
 
 根据特定迭代器类型编写的算法可以使用该迭代器，也可以使用具有所需功能的任何其他迭代器。
 
@@ -1898,7 +1898,7 @@ C++11新增了 5 个容器类别，它们分别是：forward_list、unordered_ma
 
 基本容器不能保证其元素都按特定的顺序存储，也不能保证元素的顺序不变，但对概念改进后，则可以增加这样的保证。所有的容器都提供某些特征和操作。下图对一些通用特征进行总结。其中，X 表示容器类型，如 vector；T 表示存储在容器中的对象类型；a 和 b 表示类型为 X 的值；r 表示类型为 X& 的值；u 表示类型为 X 的标识符。
 
-![](../picture/basic/10-6.png)
+![](../../../.imgs/Coding/the-cpp/basic_note/10-6.png)
 
 图中的复杂度一列描述了执行操作所需的时间，它列出了三种可能性：
 - 编译时间
@@ -1913,7 +1913,7 @@ C++11新增了 5 个容器类别，它们分别是：forward_list、unordered_ma
 
 rv 表示类型为 X 的非常量右值，如函数的返回值。
 
-![](../picture/basic/10-7.png)
+![](../../../.imgs/Coding/the-cpp/basic_note/10-7.png)
 
 复制构造和复制赋值以及移动构造和移动赋值之间的差别在于，复制操作保留源对象，而移动操作可以修改源对象，还可能转让所有权，不做任何赋值。如果源对象是临时的，移动操作的效率高于常规复制。
 
@@ -1926,8 +1926,8 @@ rv 表示类型为 X 的非常量右值，如函数的返回值。
 
 因为序列中的元素具有确定的顺序，因此可以执行诸如将值插入到特定位置、删除特定区间等操作。
 
-![](../picture/basic/10-8.png)
-![](../picture/basic/10-9.png)
+![](../../../.imgs/Coding/the-cpp/basic_note/10-8.png)
+![](../../../.imgs/Coding/the-cpp/basic_note/10-9.png)
 
 **(1) vector**
 
@@ -1963,7 +1963,7 @@ list 与 vector 之间关键的区别在于：list 在链表中任一位置进�
 
 与 vector 相似，list 也是可反转容器。
 
-![](../picture/basic/10-10.png)
+![](../../../.imgs/Coding/the-cpp/basic_note/10-10.png)
 
 
 **(4) forward_list(C++)**
@@ -2013,5 +2013,5 @@ multimap 与 map 相似，只是一个键可以与多个值关联。
 
 #### 总结
 
-![](../picture/basic/10-11.png)
+![](../../../.imgs/Coding/the-cpp/basic_note/10-11.png)
 

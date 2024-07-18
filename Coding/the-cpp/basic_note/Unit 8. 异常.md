@@ -249,7 +249,7 @@ void test_Exception() {
 }
 ```
 
-![](../picture/basic/8-2.png)
+![](../../../.imgs/Coding/the-cpp/basic_note/8-2.png)
 
 ### 抛出异常
 
@@ -348,7 +348,7 @@ try {
 
 现在再看**异常是如何处理的**。假设函数由于出现异常而终止，则程序也会释放栈中的内存，但不会在释放栈的第一个返回地址就停止，而是继续释放栈，直到找到一个位于 try 块中的返回地址。随后，控制权将转到 try 块后面的异常处理程序(catch)，而不是函数调用后面的第一条语句。这个过程被称为栈解退。
 
-![](../picture/basic/8-1.png)
+![](../../../.imgs/Coding/the-cpp/basic_note/8-1.png)
 
 引发栈解退机制的一个非常重要的特性是，对于栈中的自动类对象会调用其析构函数。这点和函数返回一样，不过，函数返回仅仅处理该函数放在栈中的对象，而栈解退则是处理 try 块和 throw 之间整个函数调用序列放在栈中的对象。如果没有栈解退这种特性，引发异常之后，对于中间函数调用放在栈中的自动类对象不会调用其析构函数。
 
@@ -832,7 +832,7 @@ HmeanException::HmeanException(double a, double b) : v1(a), v2(b) {
 
 除了 exception 基类之外，C++库还定义了很多基于 exception 的异常类。它们位于 stdexceept 头文件中，该头文件先定义了 exception 基类的两个继承类 logic_error 和 runtime_error，
 
-![](../picture/basic/exception.png)
+![](../../../.imgs/Coding/the-cpp/basic_note/exception.png)
 
 |异常类|头文件|描述|
 |:-:|:-:|-

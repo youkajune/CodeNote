@@ -322,7 +322,7 @@ class C : public A, public B {...};
 未解决这些问题，需要使用一些新规则和不同的语法。因此，与使用单继承相比，使用多重继承更困难，也更容易出现问题。
 下面会以《C++ Primer Plus》中的例子来演示下多重继承的大多数麻烦。首先定义一个抽象基类 Worker，并使用它派生出 Waiter 和 Singer 类，然后使用多重继承从 Waiter 和 Singer 类派生出 SingingWaiter 类。
 
-![](../picture/basic/6-1.png)
+![](../../../.imgs/Coding/the-cpp/basic_note/6-1.png)
 
 ### 实例演示
 
@@ -477,7 +477,7 @@ class SingingWaiter : public Singer, public Waiter {...};
 
 因为 Singer 和 Waiter 都继承了一个 Worker 组件，因此 SingingWaiter 将包含两个 Work 组件：
 
-![](../picture/basic/6-2.png)
+![](../../../.imgs/Coding/the-cpp/basic_note/6-2.png)
 
 正如预期的，这将引起问题。例如，通常可以将派生类对象的地址赋给基类指针，但现在将出现二义性：
   
@@ -516,7 +516,7 @@ class SingingWaiter : public Singer, public Waiter {...};
 
 现在，SingingWaiter 对象将只包含 Worker 对象的一个副本。从本质上说，继承的 Singer 和 Waiter 对象共享一个 Work 对象，而不是各自引入自己的 Work 对象副本：
 
-![](../picture/basic/6-3.png)
+![](../../../.imgs/Coding/the-cpp/basic_note/6-3.png)
 
 因为现在 SingingWaiter 只包含一个 Worker 子对象，所以可以对 SingingWaiter 使用多态。
 

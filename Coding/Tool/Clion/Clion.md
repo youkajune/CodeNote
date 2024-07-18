@@ -65,4 +65,4 @@ int main() {
 
 CLion 软件编译时默认将文件放在 cmake-build-debug 下，但可以通过指定工作路径来修改。方法如下：Run -> Edit Configurations -> Working directory，将工作路径指向当前路径，如下图：
 
-![](../imgs/CLion/CLion_1.png)
+![](../../../.imgs/Coding/Tool/Clion/CLion_1.png)

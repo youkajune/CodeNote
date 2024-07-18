@@ -59,7 +59,7 @@ int main(int argc, char** args) {
 
 错误信息如下：
 
-![](E:\Note\Code Language\the-cpp\picture\basic\3-1.png)
+![](../../../.imgs/Coding/the-cpp/basic_note/3-1.png)
 
 错误原因：show() 的代码无法确保调用对象不被修改，即 show 函数不保证 const 对象 d1 不会被修改。
 
@@ -99,7 +99,7 @@ const Demo& Demo::max(const Demo & d) const {
 C++ 解决这个问题的方法是 —— 使用被称为 this 的特殊指针。this 指针指向用来调用成员函数的对象(this 被作为隐藏参数传递给函数)。这样，函数调用 d1.max(d2) 将 this 设置为对象 d1 的地址。一般来说，所有类的成员函数都将 this 指针设置为调用它们的对象的地址。max() 中的 value 其实就是 this->value 的简写。
 
 下图是《C++ Primer Plus》中关于 this 的图解：
-![](E:\Note\Code Language\the-cpp\picture\basic\3-2.png)
+![](../../../.imgs/Coding/the-cpp/basic_note/3-2.png)
 
 ```cpp
 const Demo& Demo::max(const Demo & d) const {
@@ -978,7 +978,7 @@ Stone::Stone(double p) {
 
 当构造函数`Stone(double p);`被 explicit 修饰之后，将关闭隐式类型转换，但仍然允许显式转换。
 
-![](E:\Note\Code Language\the-cpp\picture\basic\3-3.png)
+![](../../../.imgs/Coding/the-cpp/basic_note/3-3.png)
 
 > 不只是基本数据类型，只要定义相应的转换构造函数，可以将用户自定义的其他类型转换为 Stone 对象。
 

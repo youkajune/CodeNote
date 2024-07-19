@@ -52,10 +52,10 @@ RM = E:\IDE\CLion\bin\cmake\win\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "E:\Note\Note\Code Language\the-cpp\source"
+CMAKE_SOURCE_DIR = E:\Note\Note\Coding\the-cpp\src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug"
+CMAKE_BINARY_DIR = E:\Note\Note\Coding\the-cpp\src\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/TypeConversion.dir/depend.make
@@ -67,29 +67,29 @@ include CMakeFiles/TypeConversion.dir/flags.make
 
 CMakeFiles/TypeConversion.dir/Unit3/TypeConversion/stone.cpp.obj: CMakeFiles/TypeConversion.dir/flags.make
 CMakeFiles/TypeConversion.dir/Unit3/TypeConversion/stone.cpp.obj: ../Unit3/TypeConversion/stone.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TypeConversion.dir/Unit3/TypeConversion/stone.cpp.obj"
-	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TypeConversion.dir\Unit3\TypeConversion\stone.cpp.obj -c "E:\Note\Note\Code Language\the-cpp\source\Unit3\TypeConversion\stone.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Note\Note\Coding\the-cpp\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TypeConversion.dir/Unit3/TypeConversion/stone.cpp.obj"
+	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TypeConversion.dir\Unit3\TypeConversion\stone.cpp.obj -c E:\Note\Note\Coding\the-cpp\src\Unit3\TypeConversion\stone.cpp
 
 CMakeFiles/TypeConversion.dir/Unit3/TypeConversion/stone.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TypeConversion.dir/Unit3/TypeConversion/stone.cpp.i"
-	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Note\Note\Code Language\the-cpp\source\Unit3\TypeConversion\stone.cpp" > CMakeFiles\TypeConversion.dir\Unit3\TypeConversion\stone.cpp.i
+	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Note\Note\Coding\the-cpp\src\Unit3\TypeConversion\stone.cpp > CMakeFiles\TypeConversion.dir\Unit3\TypeConversion\stone.cpp.i
 
 CMakeFiles/TypeConversion.dir/Unit3/TypeConversion/stone.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TypeConversion.dir/Unit3/TypeConversion/stone.cpp.s"
-	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Note\Note\Code Language\the-cpp\source\Unit3\TypeConversion\stone.cpp" -o CMakeFiles\TypeConversion.dir\Unit3\TypeConversion\stone.cpp.s
+	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Note\Note\Coding\the-cpp\src\Unit3\TypeConversion\stone.cpp -o CMakeFiles\TypeConversion.dir\Unit3\TypeConversion\stone.cpp.s
 
 CMakeFiles/TypeConversion.dir/Unit3/TypeConversion/demo.cpp.obj: CMakeFiles/TypeConversion.dir/flags.make
 CMakeFiles/TypeConversion.dir/Unit3/TypeConversion/demo.cpp.obj: ../Unit3/TypeConversion/demo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TypeConversion.dir/Unit3/TypeConversion/demo.cpp.obj"
-	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TypeConversion.dir\Unit3\TypeConversion\demo.cpp.obj -c "E:\Note\Note\Code Language\the-cpp\source\Unit3\TypeConversion\demo.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Note\Note\Coding\the-cpp\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TypeConversion.dir/Unit3/TypeConversion/demo.cpp.obj"
+	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TypeConversion.dir\Unit3\TypeConversion\demo.cpp.obj -c E:\Note\Note\Coding\the-cpp\src\Unit3\TypeConversion\demo.cpp
 
 CMakeFiles/TypeConversion.dir/Unit3/TypeConversion/demo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TypeConversion.dir/Unit3/TypeConversion/demo.cpp.i"
-	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Note\Note\Code Language\the-cpp\source\Unit3\TypeConversion\demo.cpp" > CMakeFiles\TypeConversion.dir\Unit3\TypeConversion\demo.cpp.i
+	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Note\Note\Coding\the-cpp\src\Unit3\TypeConversion\demo.cpp > CMakeFiles\TypeConversion.dir\Unit3\TypeConversion\demo.cpp.i
 
 CMakeFiles/TypeConversion.dir/Unit3/TypeConversion/demo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TypeConversion.dir/Unit3/TypeConversion/demo.cpp.s"
-	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Note\Note\Code Language\the-cpp\source\Unit3\TypeConversion\demo.cpp" -o CMakeFiles\TypeConversion.dir\Unit3\TypeConversion\demo.cpp.s
+	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Note\Note\Coding\the-cpp\src\Unit3\TypeConversion\demo.cpp -o CMakeFiles\TypeConversion.dir\Unit3\TypeConversion\demo.cpp.s
 
 # Object files for target TypeConversion
 TypeConversion_OBJECTS = \
@@ -105,7 +105,7 @@ TypeConversion.exe: CMakeFiles/TypeConversion.dir/build.make
 TypeConversion.exe: CMakeFiles/TypeConversion.dir/linklibs.rsp
 TypeConversion.exe: CMakeFiles/TypeConversion.dir/objects1.rsp
 TypeConversion.exe: CMakeFiles/TypeConversion.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable TypeConversion.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Note\Note\Coding\the-cpp\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable TypeConversion.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TypeConversion.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -117,6 +117,6 @@ CMakeFiles/TypeConversion.dir/clean:
 .PHONY : CMakeFiles/TypeConversion.dir/clean
 
 CMakeFiles/TypeConversion.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "E:\Note\Note\Code Language\the-cpp\source" "E:\Note\Note\Code Language\the-cpp\source" "E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug" "E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug" "E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles\TypeConversion.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\Note\Note\Coding\the-cpp\src E:\Note\Note\Coding\the-cpp\src E:\Note\Note\Coding\the-cpp\src\cmake-build-debug E:\Note\Note\Coding\the-cpp\src\cmake-build-debug E:\Note\Note\Coding\the-cpp\src\cmake-build-debug\CMakeFiles\TypeConversion.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/TypeConversion.dir/depend
 

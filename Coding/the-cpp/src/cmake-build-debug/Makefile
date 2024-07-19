@@ -56,10 +56,10 @@ RM = E:\IDE\CLion\bin\cmake\win\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "E:\Note\Note\Code Language\the-cpp\source"
+CMAKE_SOURCE_DIR = E:\Note\Note\Coding\the-cpp\src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug"
+CMAKE_BINARY_DIR = E:\Note\Note\Coding\the-cpp\src\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" "E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Note\Note\Coding\the-cpp\src\cmake-build-debug\CMakeFiles E:\Note\Note\Coding\the-cpp\src\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Note\Note\Coding\the-cpp\src\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target

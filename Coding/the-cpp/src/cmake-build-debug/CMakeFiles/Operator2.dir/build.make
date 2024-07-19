@@ -52,10 +52,10 @@ RM = E:\IDE\CLion\bin\cmake\win\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "E:\Note\Note\Code Language\the-cpp\source"
+CMAKE_SOURCE_DIR = E:\Note\Note\Coding\the-cpp\src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug"
+CMAKE_BINARY_DIR = E:\Note\Note\Coding\the-cpp\src\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Operator2.dir/depend.make
@@ -67,29 +67,29 @@ include CMakeFiles/Operator2.dir/flags.make
 
 CMakeFiles/Operator2.dir/Unit3/Operator/mytime2.cpp.obj: CMakeFiles/Operator2.dir/flags.make
 CMakeFiles/Operator2.dir/Unit3/Operator/mytime2.cpp.obj: ../Unit3/Operator/mytime2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Operator2.dir/Unit3/Operator/mytime2.cpp.obj"
-	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Operator2.dir\Unit3\Operator\mytime2.cpp.obj -c "E:\Note\Note\Code Language\the-cpp\source\Unit3\Operator\mytime2.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Note\Note\Coding\the-cpp\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Operator2.dir/Unit3/Operator/mytime2.cpp.obj"
+	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Operator2.dir\Unit3\Operator\mytime2.cpp.obj -c E:\Note\Note\Coding\the-cpp\src\Unit3\Operator\mytime2.cpp
 
 CMakeFiles/Operator2.dir/Unit3/Operator/mytime2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Operator2.dir/Unit3/Operator/mytime2.cpp.i"
-	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Note\Note\Code Language\the-cpp\source\Unit3\Operator\mytime2.cpp" > CMakeFiles\Operator2.dir\Unit3\Operator\mytime2.cpp.i
+	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Note\Note\Coding\the-cpp\src\Unit3\Operator\mytime2.cpp > CMakeFiles\Operator2.dir\Unit3\Operator\mytime2.cpp.i
 
 CMakeFiles/Operator2.dir/Unit3/Operator/mytime2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Operator2.dir/Unit3/Operator/mytime2.cpp.s"
-	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Note\Note\Code Language\the-cpp\source\Unit3\Operator\mytime2.cpp" -o CMakeFiles\Operator2.dir\Unit3\Operator\mytime2.cpp.s
+	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Note\Note\Coding\the-cpp\src\Unit3\Operator\mytime2.cpp -o CMakeFiles\Operator2.dir\Unit3\Operator\mytime2.cpp.s
 
 CMakeFiles/Operator2.dir/Unit3/Operator/demo2.cpp.obj: CMakeFiles/Operator2.dir/flags.make
 CMakeFiles/Operator2.dir/Unit3/Operator/demo2.cpp.obj: ../Unit3/Operator/demo2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Operator2.dir/Unit3/Operator/demo2.cpp.obj"
-	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Operator2.dir\Unit3\Operator\demo2.cpp.obj -c "E:\Note\Note\Code Language\the-cpp\source\Unit3\Operator\demo2.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Note\Note\Coding\the-cpp\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Operator2.dir/Unit3/Operator/demo2.cpp.obj"
+	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Operator2.dir\Unit3\Operator\demo2.cpp.obj -c E:\Note\Note\Coding\the-cpp\src\Unit3\Operator\demo2.cpp
 
 CMakeFiles/Operator2.dir/Unit3/Operator/demo2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Operator2.dir/Unit3/Operator/demo2.cpp.i"
-	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Note\Note\Code Language\the-cpp\source\Unit3\Operator\demo2.cpp" > CMakeFiles\Operator2.dir\Unit3\Operator\demo2.cpp.i
+	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Note\Note\Coding\the-cpp\src\Unit3\Operator\demo2.cpp > CMakeFiles\Operator2.dir\Unit3\Operator\demo2.cpp.i
 
 CMakeFiles/Operator2.dir/Unit3/Operator/demo2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Operator2.dir/Unit3/Operator/demo2.cpp.s"
-	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Note\Note\Code Language\the-cpp\source\Unit3\Operator\demo2.cpp" -o CMakeFiles\Operator2.dir\Unit3\Operator\demo2.cpp.s
+	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Note\Note\Coding\the-cpp\src\Unit3\Operator\demo2.cpp -o CMakeFiles\Operator2.dir\Unit3\Operator\demo2.cpp.s
 
 # Object files for target Operator2
 Operator2_OBJECTS = \
@@ -105,7 +105,7 @@ Operator2.exe: CMakeFiles/Operator2.dir/build.make
 Operator2.exe: CMakeFiles/Operator2.dir/linklibs.rsp
 Operator2.exe: CMakeFiles/Operator2.dir/objects1.rsp
 Operator2.exe: CMakeFiles/Operator2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Operator2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Note\Note\Coding\the-cpp\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Operator2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Operator2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -117,6 +117,6 @@ CMakeFiles/Operator2.dir/clean:
 .PHONY : CMakeFiles/Operator2.dir/clean
 
 CMakeFiles/Operator2.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "E:\Note\Note\Code Language\the-cpp\source" "E:\Note\Note\Code Language\the-cpp\source" "E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug" "E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug" "E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles\Operator2.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\Note\Note\Coding\the-cpp\src E:\Note\Note\Coding\the-cpp\src E:\Note\Note\Coding\the-cpp\src\cmake-build-debug E:\Note\Note\Coding\the-cpp\src\cmake-build-debug E:\Note\Note\Coding\the-cpp\src\cmake-build-debug\CMakeFiles\Operator2.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Operator2.dir/depend
 

@@ -318,8 +318,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug",
-		"source" : "E:/Note/Note/Code Language/the-cpp/source"
+		"build" : "E:/Note/Note/Coding/the-cpp/src/cmake-build-debug",
+		"source" : "E:/Note/Note/Coding/the-cpp/src"
 	},
 	"version" : 
 	{

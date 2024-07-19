@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/Note/Note/Code Language/the-cpp/source/Unit7/Friend.cpp" "E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/CMakeFiles/FriendClass.dir/Unit7/Friend.cpp.obj"
-  "E:/Note/Note/Code Language/the-cpp/source/Unit7/main.cpp" "E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/CMakeFiles/FriendClass.dir/Unit7/main.cpp.obj"
+  "E:/Note/Note/Coding/the-cpp/src/Unit7/Friend.cpp" "E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/CMakeFiles/FriendClass.dir/Unit7/Friend.cpp.obj"
+  "E:/Note/Note/Coding/the-cpp/src/Unit7/main.cpp" "E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/CMakeFiles/FriendClass.dir/Unit7/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

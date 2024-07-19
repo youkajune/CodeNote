@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/Note/Note/Code Language/the-cpp/source/Unit5/Brass.cpp" "E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/CMakeFiles/Extends.dir/Unit5/Brass.cpp.obj"
-  "E:/Note/Note/Code Language/the-cpp/source/Unit5/main.cpp" "E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/CMakeFiles/Extends.dir/Unit5/main.cpp.obj"
-  "E:/Note/Note/Code Language/the-cpp/source/Unit5/person.cpp" "E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/CMakeFiles/Extends.dir/Unit5/person.cpp.obj"
+  "E:/Note/Note/Coding/the-cpp/src/Unit5/Brass.cpp" "E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/CMakeFiles/Extends.dir/Unit5/Brass.cpp.obj"
+  "E:/Note/Note/Coding/the-cpp/src/Unit5/main.cpp" "E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/CMakeFiles/Extends.dir/Unit5/main.cpp.obj"
+  "E:/Note/Note/Coding/the-cpp/src/Unit5/person.cpp" "E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/CMakeFiles/Extends.dir/Unit5/person.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="C_PlusPlus_Customization">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/C_PlusPlus_Customization.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/C_PlusPlus_Customization.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -32,15 +32,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_PlusPlus_Customization"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_PlusPlus_Customization"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="C_PlusPlus_Customization/fast">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/C_PlusPlus_Customization.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/C_PlusPlus_Customization.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,15 +53,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_PlusPlus_Customization/fast"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_PlusPlus_Customization/fast"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DynamicMemory">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/DynamicMemory.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/DynamicMemory.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -74,15 +74,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 DynamicMemory"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 DynamicMemory"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DynamicMemory/fast">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/DynamicMemory.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/DynamicMemory.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -95,15 +95,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 DynamicMemory/fast"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 DynamicMemory/fast"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Link">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Link.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Link.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -116,15 +116,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Link"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Link"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Link/fast">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Link.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Link.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -137,15 +137,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Link/fast"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Link/fast"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="HelloWorld">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/HelloWorld.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/HelloWorld.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -158,15 +158,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 HelloWorld"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 HelloWorld"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="HelloWorld/fast">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/HelloWorld.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/HelloWorld.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -179,15 +179,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 HelloWorld/fast"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 HelloWorld/fast"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Demo0">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Demo0.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Demo0.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -200,15 +200,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Demo0"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Demo0"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Demo0/fast">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Demo0.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Demo0.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -221,15 +221,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Demo0/fast"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Demo0/fast"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="C_Struct0">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/C_Struct0.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/C_Struct0.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -242,15 +242,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_Struct0"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_Struct0"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="C_Struct0/fast">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/C_Struct0.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/C_Struct0.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -263,15 +263,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_Struct0/fast"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_Struct0/fast"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="C_Struct1">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/C_Struct1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/C_Struct1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -284,15 +284,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_Struct1"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_Struct1"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="C_Struct1/fast">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/C_Struct1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/C_Struct1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -305,15 +305,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_Struct1/fast"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_Struct1/fast"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="C_Customization">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/C_Customization.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/C_Customization.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -326,15 +326,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_Customization"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_Customization"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="C_Customization/fast">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/C_Customization.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/C_Customization.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -347,15 +347,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_Customization/fast"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_Customization/fast"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Const0">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Const0.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Const0.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -368,15 +368,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Const0"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Const0"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Const0/fast">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Const0.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Const0.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -389,15 +389,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Const0/fast"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Const0/fast"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="C_Struct2">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/C_Struct2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/C_Struct2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -410,15 +410,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_Struct2"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_Struct2"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="C_Struct2/fast">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/C_Struct2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/C_Struct2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -431,15 +431,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_Struct2/fast"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_Struct2/fast"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Demo1">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Demo1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Demo1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -452,15 +452,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Demo1"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Demo1"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Demo1/fast">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Demo1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Demo1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -473,15 +473,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Demo1/fast"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Demo1/fast"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Demo2">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Demo2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Demo2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -494,15 +494,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Demo2"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Demo2"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Demo2/fast">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Demo2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Demo2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -515,15 +515,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Demo2/fast"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Demo2/fast"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Demo3">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Demo3.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Demo3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -536,15 +536,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Demo3"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Demo3"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Demo3/fast">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Demo3.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Demo3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -557,15 +557,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Demo3/fast"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Demo3/fast"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CodeReuse">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/CodeReuse.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/CodeReuse.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -578,15 +578,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 CodeReuse"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 CodeReuse"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CodeReuse/fast">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/CodeReuse.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/CodeReuse.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -599,15 +599,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 CodeReuse/fast"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 CodeReuse/fast"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Output">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Output.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Output.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -620,15 +620,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Output"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Output"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Output/fast">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Output.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Output.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -641,15 +641,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Output/fast"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Output/fast"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Operator1">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Operator1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Operator1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -662,15 +662,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Operator1"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Operator1"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Operator1/fast">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Operator1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Operator1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -683,25 +683,25 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Operator1/fast"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Operator1/fast"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Operator2">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Operator2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Operator2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -714,15 +714,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Operator2"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Operator2"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Operator2/fast">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Operator2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Operator2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -735,15 +735,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Operator2/fast"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Operator2/fast"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Friend">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Friend.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Friend.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -756,15 +756,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Friend"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Friend"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Friend/fast">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Friend.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Friend.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -777,15 +777,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Friend/fast"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Friend/fast"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="TypeConversion">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/TypeConversion.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/TypeConversion.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -798,15 +798,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 TypeConversion"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 TypeConversion"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="TypeConversion/fast">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/TypeConversion.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/TypeConversion.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -819,15 +819,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 TypeConversion/fast"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 TypeConversion/fast"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PositionNew">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/PositionNew.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/PositionNew.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -840,15 +840,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 PositionNew"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 PositionNew"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PositionNew/fast">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/PositionNew.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/PositionNew.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -861,15 +861,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 PositionNew/fast"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 PositionNew/fast"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Exception">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Exception.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Exception.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -882,15 +882,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Exception"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Exception"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Exception/fast">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Exception.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Exception.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -903,15 +903,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Exception/fast"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Exception/fast"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ATMQueue">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/ATMQueue.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/ATMQueue.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -924,15 +924,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 ATMQueue"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 ATMQueue"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ATMQueue/fast">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/ATMQueue.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/ATMQueue.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -945,15 +945,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 ATMQueue/fast"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 ATMQueue/fast"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Extends">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Extends.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Extends.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -966,15 +966,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Extends"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Extends"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Extends/fast">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Extends.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Extends.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -987,15 +987,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Extends/fast"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Extends/fast"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FriendClass">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/FriendClass.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/FriendClass.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1008,15 +1008,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 FriendClass"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 FriendClass"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FriendClass/fast">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/FriendClass.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/FriendClass.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1029,15 +1029,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 FriendClass/fast"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 FriendClass/fast"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="NoException">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/NoException.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/NoException.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1050,15 +1050,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 NoException"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 NoException"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="NoException/fast">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/NoException.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/NoException.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1071,25 +1071,25 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 NoException/fast"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 NoException/fast"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Theory">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Theory.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Theory.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1102,15 +1102,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Theory"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Theory"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Theory/fast">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Theory.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Theory.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1123,15 +1123,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Theory/fast"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Theory/fast"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="IO">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/IO.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/IO.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1144,15 +1144,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 IO"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 IO"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="IO/fast">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/IO.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/IO.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1165,15 +1165,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 IO/fast"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 IO/fast"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ExceptionSTDClass">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/ExceptionSTDClass.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/ExceptionSTDClass.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1186,15 +1186,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 ExceptionSTDClass"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 ExceptionSTDClass"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ExceptionSTDClass/fast">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/ExceptionSTDClass.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/ExceptionSTDClass.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1207,15 +1207,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 ExceptionSTDClass/fast"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 ExceptionSTDClass/fast"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="RTTI">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/RTTI.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/RTTI.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1228,15 +1228,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 RTTI"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 RTTI"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="RTTI/fast">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/RTTI.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/RTTI.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1249,15 +1249,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 RTTI/fast"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 RTTI/fast"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="STL">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/STL.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/STL.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1270,15 +1270,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 STL"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 STL"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="STL/fast">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/STL.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/STL.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1291,15 +1291,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 STL/fast"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 STL/fast"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Character">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Character.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Character.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1312,15 +1312,15 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Character"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Character"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Character/fast">
-				<Option output="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Character.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"/>
+				<Option output="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Character.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1333,236 +1333,236 @@
 					<Add directory="E:/DevelopmentKit/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 Character/fast"/>
-					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Character/fast"/>
+					<CompileFile command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/DevelopmentKit/MinGW/bin/mingw32-make.exe -f &quot;E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit1/Link/link1.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit1/Link/link1.cpp">
 			<Option target="Link"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit1/Link/link2.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit1/Link/link2.cpp">
 			<Option target="Link"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit1/Struct/struct0.c">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit1/Struct/struct0.c">
 			<Option target="C_Struct0"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit1/Struct/struct1.c">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit1/Struct/struct1.c">
 			<Option target="C_Struct1"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit1/Struct/struct2.c">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit1/Struct/struct2.c">
 			<Option target="C_Struct2"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit10/main.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit10/main.cpp">
 			<Option target="STL"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit10/smart_ptr.h">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit10/smart_ptr.h">
 			<Option target="STL"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit11/main.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit11/main.cpp">
 			<Option target="IO"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit12/main.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit12/main.cpp">
 			<Option target="Character"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit2/Class Flexible Demo/complex_c.c">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit2/Class Flexible Demo/complex_c.c">
 			<Option target="C_Customization"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit2/Class Flexible Demo/complex_cplus.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit2/Class Flexible Demo/complex_cplus.cpp">
 			<Option target="C_PlusPlus_Customization"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit2/Constant/const_object.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit2/Constant/const_object.cpp">
 			<Option target="Const0"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit2/Constant/const_object.h">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit2/Constant/const_object.h">
 			<Option target="Const0"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit2/Constant/constant.h">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit2/Constant/constant.h">
 			<Option target="Const0"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit2/Constant/demo.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit2/Constant/demo.cpp">
 			<Option target="Const0"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit2/Stock/demo0.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit2/Stock/demo0.cpp">
 			<Option target="Demo0"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit2/Stock/demo1.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit2/Stock/demo1.cpp">
 			<Option target="Demo1"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit2/Stock/demo2.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit2/Stock/demo2.cpp">
 			<Option target="Demo2"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit2/Stock/demo3.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit2/Stock/demo3.cpp">
 			<Option target="Demo3"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit2/Stock/stock0.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit2/Stock/stock0.cpp">
 			<Option target="Demo0"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit2/Stock/stock0.h">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit2/Stock/stock0.h">
 			<Option target="Demo0"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit2/Stock/stock1.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit2/Stock/stock1.cpp">
 			<Option target="Demo1"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit2/Stock/stock1.h">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit2/Stock/stock1.h">
 			<Option target="Demo1"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit2/Stock/stock2.cpp">
-			<Option target="Demo2"/>
-			<Option target="Demo3"/>
-		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit2/Stock/stock2.h">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit2/Stock/stock2.cpp">
 			<Option target="Demo2"/>
 			<Option target="Demo3"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit3/Operator/demo1.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit2/Stock/stock2.h">
+			<Option target="Demo2"/>
+			<Option target="Demo3"/>
+		</Unit>
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit3/Operator/demo1.cpp">
 			<Option target="Operator1"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit3/Operator/demo2.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit3/Operator/demo2.cpp">
 			<Option target="Operator2"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit3/Operator/demo3.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit3/Operator/demo3.cpp">
 			<Option target="Friend"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit3/Operator/myfriend.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit3/Operator/myfriend.cpp">
 			<Option target="Friend"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit3/Operator/myfriend.h">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit3/Operator/myfriend.h">
 			<Option target="Friend"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit3/Operator/mytime1.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit3/Operator/mytime1.cpp">
 			<Option target="Operator1"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit3/Operator/mytime1.h">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit3/Operator/mytime1.h">
 			<Option target="Operator1"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit3/Operator/mytime2.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit3/Operator/mytime2.cpp">
 			<Option target="Operator2"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit3/Operator/mytime2.h">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit3/Operator/mytime2.h">
 			<Option target="Operator2"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit3/Practice/demo.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit3/Practice/demo.cpp">
 			<Option target="Output"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit3/Practice/output.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit3/Practice/output.cpp">
 			<Option target="Output"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit3/Practice/output.h">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit3/Practice/output.h">
 			<Option target="Output"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit3/Practice/vector.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit3/Practice/vector.cpp">
 			<Option target="Output"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit3/Practice/vector.h">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit3/Practice/vector.h">
 			<Option target="Output"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit3/TypeConversion/demo.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit3/TypeConversion/demo.cpp">
 			<Option target="TypeConversion"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit3/TypeConversion/stone.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit3/TypeConversion/stone.cpp">
 			<Option target="TypeConversion"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit3/TypeConversion/stone.h">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit3/TypeConversion/stone.h">
 			<Option target="TypeConversion"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit4/String.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit4/String.cpp">
 			<Option target="DynamicMemory"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit4/String.h">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit4/String.h">
 			<Option target="DynamicMemory"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit4/StringBad.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit4/StringBad.cpp">
 			<Option target="DynamicMemory"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit4/StringBad.h">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit4/StringBad.h">
 			<Option target="DynamicMemory"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit4/atm.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit4/atm.cpp">
 			<Option target="ATMQueue"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit4/client.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit4/client.cpp">
 			<Option target="ATMQueue"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit4/client.h">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit4/client.h">
 			<Option target="ATMQueue"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit4/demo.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit4/demo.cpp">
 			<Option target="DynamicMemory"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit4/position_new.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit4/position_new.cpp">
 			<Option target="PositionNew"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit5/Brass.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit5/Brass.cpp">
 			<Option target="Extends"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit5/Brass.h">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit5/Brass.h">
 			<Option target="Extends"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit5/main.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit5/main.cpp">
 			<Option target="Extends"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit5/person.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit5/person.cpp">
 			<Option target="Extends"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit5/person.h">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit5/person.h">
 			<Option target="Extends"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit6/ClassTemplate.h">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit6/ClassTemplate.h">
 			<Option target="CodeReuse"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit6/Contains.h">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit6/Contains.h">
 			<Option target="CodeReuse"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit6/MultipleInheritance.h">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit6/MultipleInheritance.h">
 			<Option target="CodeReuse"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit6/PrivateExtend.h">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit6/PrivateExtend.h">
 			<Option target="CodeReuse"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit6/main.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit6/main.cpp">
 			<Option target="CodeReuse"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit7/Friend.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit7/Friend.cpp">
 			<Option target="FriendClass"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit7/Friend.h">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit7/Friend.h">
 			<Option target="FriendClass"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit7/main.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit7/main.cpp">
 			<Option target="FriendClass"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit8/Exception/Exception.h">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit8/Exception/Exception.h">
 			<Option target="Exception"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit8/Exception/main.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit8/Exception/main.cpp">
 			<Option target="Exception"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit8/ExceptionSTDClass/main.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit8/ExceptionSTDClass/main.cpp">
 			<Option target="ExceptionSTDClass"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit8/NoException/error.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit8/NoException/error.cpp">
 			<Option target="NoException"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit8/Theory/Demo.h">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit8/Theory/Demo.h">
 			<Option target="Theory"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit8/Theory/main.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit8/Theory/main.cpp">
 			<Option target="ATMQueue"/>
 			<Option target="Theory"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit9/RTTI.h">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit9/RTTI.h">
 			<Option target="RTTI"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/Unit9/main.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/Unit9/main.cpp">
 			<Option target="RTTI"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/main.cpp">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/main.cpp">
 			<Option target="HelloWorld"/>
 		</Unit>
-		<Unit filename="E:/Note/Note/Code Language/the-cpp/source/CMakeLists.txt">
+		<Unit filename="E:/Note/Note/Coding/the-cpp/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/Note/Note/Code Language/the-cpp/source/Unit3/Operator/demo2.cpp" "E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/CMakeFiles/Operator2.dir/Unit3/Operator/demo2.cpp.obj"
-  "E:/Note/Note/Code Language/the-cpp/source/Unit3/Operator/mytime2.cpp" "E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/CMakeFiles/Operator2.dir/Unit3/Operator/mytime2.cpp.obj"
+  "E:/Note/Note/Coding/the-cpp/src/Unit3/Operator/demo2.cpp" "E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/CMakeFiles/Operator2.dir/Unit3/Operator/demo2.cpp.obj"
+  "E:/Note/Note/Coding/the-cpp/src/Unit3/Operator/mytime2.cpp" "E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/CMakeFiles/Operator2.dir/Unit3/Operator/mytime2.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

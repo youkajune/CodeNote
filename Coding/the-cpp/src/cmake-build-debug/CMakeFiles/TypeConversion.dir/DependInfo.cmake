@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/Note/Note/Code Language/the-cpp/source/Unit3/TypeConversion/demo.cpp" "E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/CMakeFiles/TypeConversion.dir/Unit3/TypeConversion/demo.cpp.obj"
-  "E:/Note/Note/Code Language/the-cpp/source/Unit3/TypeConversion/stone.cpp" "E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/CMakeFiles/TypeConversion.dir/Unit3/TypeConversion/stone.cpp.obj"
+  "E:/Note/Note/Coding/the-cpp/src/Unit3/TypeConversion/demo.cpp" "E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/CMakeFiles/TypeConversion.dir/Unit3/TypeConversion/demo.cpp.obj"
+  "E:/Note/Note/Coding/the-cpp/src/Unit3/TypeConversion/stone.cpp" "E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/CMakeFiles/TypeConversion.dir/Unit3/TypeConversion/stone.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

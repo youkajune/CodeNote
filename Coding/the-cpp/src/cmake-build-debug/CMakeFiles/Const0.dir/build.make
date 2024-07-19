@@ -52,10 +52,10 @@ RM = E:\IDE\CLion\bin\cmake\win\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "E:\Note\Note\Code Language\the-cpp\source"
+CMAKE_SOURCE_DIR = E:\Note\Note\Coding\the-cpp\src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug"
+CMAKE_BINARY_DIR = E:\Note\Note\Coding\the-cpp\src\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Const0.dir/depend.make
@@ -67,29 +67,29 @@ include CMakeFiles/Const0.dir/flags.make
 
 CMakeFiles/Const0.dir/Unit2/Constant/demo.cpp.obj: CMakeFiles/Const0.dir/flags.make
 CMakeFiles/Const0.dir/Unit2/Constant/demo.cpp.obj: ../Unit2/Constant/demo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Const0.dir/Unit2/Constant/demo.cpp.obj"
-	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Const0.dir\Unit2\Constant\demo.cpp.obj -c "E:\Note\Note\Code Language\the-cpp\source\Unit2\Constant\demo.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Note\Note\Coding\the-cpp\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Const0.dir/Unit2/Constant/demo.cpp.obj"
+	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Const0.dir\Unit2\Constant\demo.cpp.obj -c E:\Note\Note\Coding\the-cpp\src\Unit2\Constant\demo.cpp
 
 CMakeFiles/Const0.dir/Unit2/Constant/demo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Const0.dir/Unit2/Constant/demo.cpp.i"
-	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Note\Note\Code Language\the-cpp\source\Unit2\Constant\demo.cpp" > CMakeFiles\Const0.dir\Unit2\Constant\demo.cpp.i
+	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Note\Note\Coding\the-cpp\src\Unit2\Constant\demo.cpp > CMakeFiles\Const0.dir\Unit2\Constant\demo.cpp.i
 
 CMakeFiles/Const0.dir/Unit2/Constant/demo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Const0.dir/Unit2/Constant/demo.cpp.s"
-	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Note\Note\Code Language\the-cpp\source\Unit2\Constant\demo.cpp" -o CMakeFiles\Const0.dir\Unit2\Constant\demo.cpp.s
+	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Note\Note\Coding\the-cpp\src\Unit2\Constant\demo.cpp -o CMakeFiles\Const0.dir\Unit2\Constant\demo.cpp.s
 
 CMakeFiles/Const0.dir/Unit2/Constant/const_object.cpp.obj: CMakeFiles/Const0.dir/flags.make
 CMakeFiles/Const0.dir/Unit2/Constant/const_object.cpp.obj: ../Unit2/Constant/const_object.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Const0.dir/Unit2/Constant/const_object.cpp.obj"
-	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Const0.dir\Unit2\Constant\const_object.cpp.obj -c "E:\Note\Note\Code Language\the-cpp\source\Unit2\Constant\const_object.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Note\Note\Coding\the-cpp\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Const0.dir/Unit2/Constant/const_object.cpp.obj"
+	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Const0.dir\Unit2\Constant\const_object.cpp.obj -c E:\Note\Note\Coding\the-cpp\src\Unit2\Constant\const_object.cpp
 
 CMakeFiles/Const0.dir/Unit2/Constant/const_object.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Const0.dir/Unit2/Constant/const_object.cpp.i"
-	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Note\Note\Code Language\the-cpp\source\Unit2\Constant\const_object.cpp" > CMakeFiles\Const0.dir\Unit2\Constant\const_object.cpp.i
+	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Note\Note\Coding\the-cpp\src\Unit2\Constant\const_object.cpp > CMakeFiles\Const0.dir\Unit2\Constant\const_object.cpp.i
 
 CMakeFiles/Const0.dir/Unit2/Constant/const_object.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Const0.dir/Unit2/Constant/const_object.cpp.s"
-	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Note\Note\Code Language\the-cpp\source\Unit2\Constant\const_object.cpp" -o CMakeFiles\Const0.dir\Unit2\Constant\const_object.cpp.s
+	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Note\Note\Coding\the-cpp\src\Unit2\Constant\const_object.cpp -o CMakeFiles\Const0.dir\Unit2\Constant\const_object.cpp.s
 
 # Object files for target Const0
 Const0_OBJECTS = \
@@ -105,7 +105,7 @@ Const0.exe: CMakeFiles/Const0.dir/build.make
 Const0.exe: CMakeFiles/Const0.dir/linklibs.rsp
 Const0.exe: CMakeFiles/Const0.dir/objects1.rsp
 Const0.exe: CMakeFiles/Const0.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Const0.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Note\Note\Coding\the-cpp\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Const0.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Const0.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -117,6 +117,6 @@ CMakeFiles/Const0.dir/clean:
 .PHONY : CMakeFiles/Const0.dir/clean
 
 CMakeFiles/Const0.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "E:\Note\Note\Code Language\the-cpp\source" "E:\Note\Note\Code Language\the-cpp\source" "E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug" "E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug" "E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles\Const0.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\Note\Note\Coding\the-cpp\src E:\Note\Note\Coding\the-cpp\src E:\Note\Note\Coding\the-cpp\src\cmake-build-debug E:\Note\Note\Coding\the-cpp\src\cmake-build-debug E:\Note\Note\Coding\the-cpp\src\cmake-build-debug\CMakeFiles\Const0.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Const0.dir/depend
 

@@ -52,10 +52,10 @@ RM = E:\IDE\CLion\bin\cmake\win\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "E:\Note\Note\Code Language\the-cpp\source"
+CMAKE_SOURCE_DIR = E:\Note\Note\Coding\the-cpp\src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug"
+CMAKE_BINARY_DIR = E:\Note\Note\Coding\the-cpp\src\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Friend.dir/depend.make
@@ -67,29 +67,29 @@ include CMakeFiles/Friend.dir/flags.make
 
 CMakeFiles/Friend.dir/Unit3/Operator/myfriend.cpp.obj: CMakeFiles/Friend.dir/flags.make
 CMakeFiles/Friend.dir/Unit3/Operator/myfriend.cpp.obj: ../Unit3/Operator/myfriend.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Friend.dir/Unit3/Operator/myfriend.cpp.obj"
-	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Friend.dir\Unit3\Operator\myfriend.cpp.obj -c "E:\Note\Note\Code Language\the-cpp\source\Unit3\Operator\myfriend.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Note\Note\Coding\the-cpp\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Friend.dir/Unit3/Operator/myfriend.cpp.obj"
+	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Friend.dir\Unit3\Operator\myfriend.cpp.obj -c E:\Note\Note\Coding\the-cpp\src\Unit3\Operator\myfriend.cpp
 
 CMakeFiles/Friend.dir/Unit3/Operator/myfriend.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Friend.dir/Unit3/Operator/myfriend.cpp.i"
-	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Note\Note\Code Language\the-cpp\source\Unit3\Operator\myfriend.cpp" > CMakeFiles\Friend.dir\Unit3\Operator\myfriend.cpp.i
+	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Note\Note\Coding\the-cpp\src\Unit3\Operator\myfriend.cpp > CMakeFiles\Friend.dir\Unit3\Operator\myfriend.cpp.i
 
 CMakeFiles/Friend.dir/Unit3/Operator/myfriend.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Friend.dir/Unit3/Operator/myfriend.cpp.s"
-	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Note\Note\Code Language\the-cpp\source\Unit3\Operator\myfriend.cpp" -o CMakeFiles\Friend.dir\Unit3\Operator\myfriend.cpp.s
+	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Note\Note\Coding\the-cpp\src\Unit3\Operator\myfriend.cpp -o CMakeFiles\Friend.dir\Unit3\Operator\myfriend.cpp.s
 
 CMakeFiles/Friend.dir/Unit3/Operator/demo3.cpp.obj: CMakeFiles/Friend.dir/flags.make
 CMakeFiles/Friend.dir/Unit3/Operator/demo3.cpp.obj: ../Unit3/Operator/demo3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Friend.dir/Unit3/Operator/demo3.cpp.obj"
-	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Friend.dir\Unit3\Operator\demo3.cpp.obj -c "E:\Note\Note\Code Language\the-cpp\source\Unit3\Operator\demo3.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Note\Note\Coding\the-cpp\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Friend.dir/Unit3/Operator/demo3.cpp.obj"
+	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Friend.dir\Unit3\Operator\demo3.cpp.obj -c E:\Note\Note\Coding\the-cpp\src\Unit3\Operator\demo3.cpp
 
 CMakeFiles/Friend.dir/Unit3/Operator/demo3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Friend.dir/Unit3/Operator/demo3.cpp.i"
-	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Note\Note\Code Language\the-cpp\source\Unit3\Operator\demo3.cpp" > CMakeFiles\Friend.dir\Unit3\Operator\demo3.cpp.i
+	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Note\Note\Coding\the-cpp\src\Unit3\Operator\demo3.cpp > CMakeFiles\Friend.dir\Unit3\Operator\demo3.cpp.i
 
 CMakeFiles/Friend.dir/Unit3/Operator/demo3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Friend.dir/Unit3/Operator/demo3.cpp.s"
-	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Note\Note\Code Language\the-cpp\source\Unit3\Operator\demo3.cpp" -o CMakeFiles\Friend.dir\Unit3\Operator\demo3.cpp.s
+	E:\DevelopmentKit\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Note\Note\Coding\the-cpp\src\Unit3\Operator\demo3.cpp -o CMakeFiles\Friend.dir\Unit3\Operator\demo3.cpp.s
 
 # Object files for target Friend
 Friend_OBJECTS = \
@@ -105,7 +105,7 @@ Friend.exe: CMakeFiles/Friend.dir/build.make
 Friend.exe: CMakeFiles/Friend.dir/linklibs.rsp
 Friend.exe: CMakeFiles/Friend.dir/objects1.rsp
 Friend.exe: CMakeFiles/Friend.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Friend.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Note\Note\Coding\the-cpp\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Friend.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Friend.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -117,6 +117,6 @@ CMakeFiles/Friend.dir/clean:
 .PHONY : CMakeFiles/Friend.dir/clean
 
 CMakeFiles/Friend.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "E:\Note\Note\Code Language\the-cpp\source" "E:\Note\Note\Code Language\the-cpp\source" "E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug" "E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug" "E:\Note\Note\Code Language\the-cpp\source\cmake-build-debug\CMakeFiles\Friend.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\Note\Note\Coding\the-cpp\src E:\Note\Note\Coding\the-cpp\src E:\Note\Note\Coding\the-cpp\src\cmake-build-debug E:\Note\Note\Coding\the-cpp\src\cmake-build-debug E:\Note\Note\Coding\the-cpp\src\cmake-build-debug\CMakeFiles\Friend.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Friend.dir/depend
 

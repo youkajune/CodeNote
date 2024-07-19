@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "e:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"
+			"value" : "e:/Note/Note/Coding/the-cpp/src/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -719,7 +719,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "E:/Note/Note/Code Language/the-cpp/source"
+			"value" : "E:/Note/Note/Coding/the-cpp/src"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1339,7 +1339,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug"
+			"value" : "E:/Note/Note/Coding/the-cpp/src/cmake-build-debug"
 		},
 		{
 			"name" : "source_SOURCE_DIR",
@@ -1351,7 +1351,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/Note/Note/Code Language/the-cpp/source"
+			"value" : "E:/Note/Note/Coding/the-cpp/src"
 		}
 	],
 	"kind" : "cache",

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "E:/Note/Note/Code Language/the-cpp/source/Unit1/Struct/struct2.c" "E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/CMakeFiles/C_Struct2.dir/Unit1/Struct/struct2.c.obj"
+  "E:/Note/Note/Coding/the-cpp/src/Unit1/Struct/struct2.c" "E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/CMakeFiles/C_Struct2.dir/Unit1/Struct/struct2.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -66,3 +66,25 @@ int main() {
 CLion 软件编译时默认将文件放在 cmake-build-debug 下，但可以通过指定工作路径来修改。方法如下：Run -> Edit Configurations -> Working directory，将工作路径指向当前路径，如下图：
 
 ![](../../../.imgs/Coding/Tool/Clion/CLion_1.png)
+
+## 打开新项目时，运行/调试按钮为灰色
+
+![图 0](../../../.imgs/Coding/Tool/Clion/20240719-212404-613.png)
+
+运行/调试按钮为灰色，一般都是因为 CMakeLists.txt 文件未正确加载导致的。在 CLion 中，CMakeLists.txt 文件的默认位置是在每个项目根目录中。如果你想要修改CMakeLists.txt文件的位置，你需要更新 CMake 配置来指定新的 CMakeLists.txt 文件的位置。
+
+例如，这里我的项目 CMakeLists.txt 不是在根目录下：
+
+![图 3](../../../.imgs/Coding/Tool/Clion/20240719-223329-831.png)  
+
+以下是加载 CMakeLists.txt 文件位置的步骤：
+
+- 点击菜单栏的 File -> Settings；
+- 选择 Build, Execution, Deployment -> CMake；
+- 点击+号生成 CMake profiles -> OK
+
+![图 4](../../../.imgs/Coding/Tool/Clion/20240719-223519-031.png)  
+
+此时 CMake 文件就被加载了，右上角的运行/调试就可以点击了
+
+![图 5](../../../.imgs/Coding/Tool/Clion/20240719-223655-553.png)  

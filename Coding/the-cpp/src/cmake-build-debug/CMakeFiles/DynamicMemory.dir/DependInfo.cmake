@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/Note/Note/Code Language/the-cpp/source/Unit4/String.cpp" "E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/CMakeFiles/DynamicMemory.dir/Unit4/String.cpp.obj"
-  "E:/Note/Note/Code Language/the-cpp/source/Unit4/StringBad.cpp" "E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/CMakeFiles/DynamicMemory.dir/Unit4/StringBad.cpp.obj"
-  "E:/Note/Note/Code Language/the-cpp/source/Unit4/demo.cpp" "E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/CMakeFiles/DynamicMemory.dir/Unit4/demo.cpp.obj"
+  "E:/Note/Note/Coding/the-cpp/src/Unit4/String.cpp" "E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/CMakeFiles/DynamicMemory.dir/Unit4/String.cpp.obj"
+  "E:/Note/Note/Coding/the-cpp/src/Unit4/StringBad.cpp" "E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/CMakeFiles/DynamicMemory.dir/Unit4/StringBad.cpp.obj"
+  "E:/Note/Note/Coding/the-cpp/src/Unit4/demo.cpp" "E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/CMakeFiles/DynamicMemory.dir/Unit4/demo.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

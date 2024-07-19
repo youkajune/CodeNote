@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/Note/Note/Code Language/the-cpp/source/Unit1/Link/link1.cpp" "E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/CMakeFiles/Link.dir/Unit1/Link/link1.cpp.obj"
-  "E:/Note/Note/Code Language/the-cpp/source/Unit1/Link/link2.cpp" "E:/Note/Note/Code Language/the-cpp/source/cmake-build-debug/CMakeFiles/Link.dir/Unit1/Link/link2.cpp.obj"
+  "E:/Note/Note/Coding/the-cpp/src/Unit1/Link/link1.cpp" "E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/CMakeFiles/Link.dir/Unit1/Link/link1.cpp.obj"
+  "E:/Note/Note/Coding/the-cpp/src/Unit1/Link/link2.cpp" "E:/Note/Note/Coding/the-cpp/src/cmake-build-debug/CMakeFiles/Link.dir/Unit1/Link/link2.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

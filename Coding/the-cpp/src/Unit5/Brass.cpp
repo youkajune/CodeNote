@@ -1,8 +1,9 @@
 #include "Brass.h"
 #include <iostream>
+
 // Brass Methods
 void Brass::deposit(double money) { // 存款
-    if(money < 0) {
+    if (money < 0) {
         std::cout << "Failed. Negative deposit not allowed." << std::endl;
         return;
     }
@@ -14,7 +15,7 @@ void Brass::withdrawal(double money) { // 取款
     if (money < 0)
         std::cout << "Failed. Negative withdrawal not allowed." << std::endl;
     else if (money > balance)
-        std::cout << "Failed. Withdrawal amount of $" << money << " exceeds your balance($"<< balance <<").\n";
+        std::cout << "Failed. Withdrawal amount of $" << money << " exceeds your balance($" << balance << ").\n";
     else {
         balance -= money;
         std::cout << "Success. " << name << " Withdrawal $" << money << ", Left $" << balance << ".\n";

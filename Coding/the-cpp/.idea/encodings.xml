@@ -3,6 +3,7 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/source" charset="GBK" />
     <file url="file://$PROJECT_DIR$/source/6/main.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Unit12/Lambda.h" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
